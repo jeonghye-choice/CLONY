@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "clony-mobile",
+    "slug": "clony-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/real-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/real-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/real-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jojeonghye.clonymobile",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/real-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ce0ca0e-0d60-4271-a895-99e7fb3f3b9c"
+      }
+    }
+  }
+}
