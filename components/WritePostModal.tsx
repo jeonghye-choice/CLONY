@@ -10,6 +10,7 @@ import {
     KeyboardAvoidingView,
     Platform,
     ScrollView,
+    Alert,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -44,7 +45,7 @@ const WritePostModal: React.FC<WritePostModalProps> = ({ isVisible, onClose, onS
 
     const handleSubmit = () => {
         if (!title.trim() || !content.trim()) {
-            alert('제목과 내용을 모두 입력해주세요.');
+            Alert.alert('알림', '제목과 내용을 모두 입력해주세요.');
             return;
         }
 

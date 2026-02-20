@@ -10,6 +10,7 @@ import {
     KeyboardAvoidingView,
     Platform,
     ScrollView,
+    Alert,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -52,7 +53,7 @@ const CreateChatroomModal: React.FC<CreateChatroomModalProps> = ({ isVisible, on
 
     const handleSubmit = () => {
         if (!title.trim()) {
-            alert('채팅방 이름을 입력해주세요.');
+            Alert.alert('알림', '채팅방 이름을 입력해주세요.');
             return;
         }
 
