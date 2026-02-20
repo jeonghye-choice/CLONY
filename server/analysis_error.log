@@ -1,0 +1,882 @@
+
+--- Gemini OCR Error ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 381, in run_google_vision_ocr
+    response = model.generate_content([
+        prompt,
+        {"mime_type": "image/jpeg", "data": image_bytes}
+    ])
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Analysis Error 904 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 776, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Gemini OCR Error ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 381, in run_google_vision_ocr
+    response = model.generate_content([
+        prompt,
+        {"mime_type": "image/jpeg", "data": image_bytes}
+    ])
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Analysis Error 926 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 776, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 389, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 655 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 782, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 389, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 763 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 794, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 389, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 975 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 886, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 389, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 709 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 886, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 701 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 922, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 390 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 937, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 740 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 938, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 526 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 984, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 612 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 984, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 882 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 984, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 390, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 393 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 1014, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 520, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 408 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 1187, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 520, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 963 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 1192, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 520, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 268 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 1211, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+--- Google Vision Error (HTTPError) ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 520, in run_google_vision_ocr
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc
+
+--- Analysis Error 360 ---
+Traceback (most recent call last):
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\clony-mobile\server\main.py", line 1211, in analyze_product
+    response = model.generate_content(prompt)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\choje\OneDrive\바탕 화면\clony\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
