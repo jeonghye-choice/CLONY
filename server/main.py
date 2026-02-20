@@ -8,18 +8,21 @@ import requests
 import xml.etree.ElementTree as ET
 import difflib
 import unicodedata
+from dotenv import load_dotenv
 from auth_kakao import KakaoAuthRequest, kakao_oauth_login
 from auth_google import GoogleAuthRequest, google_oauth_login
+
+# Load environment variables from .env file
+load_dotenv()
 
 # ============================================================
 # API Config
 # ============================================================
-COSMETICS_API_KEY = "1e21b6e85e900ad61362755eb97c595b60d86b4e19b51958a9b39345323b613a"
+COSMETICS_API_KEY = os.getenv("COSMETICS_API_KEY")
 COSMETICS_API_URL = "https://apis.data.go.kr/1471000/CsmtcsIngdCpntInfoService01/getCsmtcsIngdCpntList"
 
 # Unified Google API Key (for Gemini & Cloud Vision)
-# Updated to the known working key from analyze_skin
-GOOGLE_API_KEY = "AIzaSyAzVmdbMG64EkOHsGdyQIaeNsSuGx-VvDc"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 
 # EasyOCR Setup (Optional)

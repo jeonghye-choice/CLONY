@@ -46,3 +46,9 @@ __pycache__
 *.pyc
 clony.db
 uploads/
+
+# Secrets & Logs
+.env
+*.log
+main_backup*.py
+debug_gemini.py
