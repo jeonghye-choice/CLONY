@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, Modal, ScrollView, TouchableOpacity, Image, Dimensions } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useState } from 'react';
+import { View, Text, Modal, ScrollView, TouchableOpacity, Image, Dimensions, Share, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const { width } = Dimensions.get('window');
@@ -10,19 +9,29 @@ interface AnalysisResultProps {
     onClose: () => void;
     result?: any;
     score?: number;
-    weather?: { temp: number, condition: string, advice: string } | null;
 }
 
 const skinDescriptions: Record<string, any> = {
-    "OSNW": { title: "주름진 민감 지성 (OSNW)", desc: "피지는 많지만 속건조를 느끼기 쉽고, 트러블과 잔주름이 공존하는 복합적인 상태입니다.", tags: ["지성", "민감성", "비색소", "주름"] },
-    "OSNT": { title: "수부지 민감형 (OSNT)", desc: "겉은 번들거리고 속은 당기는 수분 부족형 지성이며 홍조나 트러블이 잦습니다.", tags: ["지성", "민감성", "비색소", "탄력"] },
-    "ORNT": { title: "타고난 건강 지성 (ORNT)", desc: "피지 분비만 관리하면 매우 건강하고 탄력 있는 축복받은 피부입니다.", tags: ["지성", "저항성", "비색소", "탄력"] },
-    "DSNW": { title: "건조한 노화 민감 (DSNW)", desc: "극심한 속당김과 함께 잔주름이 생기기 쉬운 얇은 피부입니다.", tags: ["건성", "민감성", "비색소", "주름"] },
-    // Add other codes or fallbacks as needed
+    "OSPT": { title: "트러블 유목민 지성 (OSPT)", desc: "피지가 많고 민감하며 잡티가 생기기 쉬운 타입입니다. 오일 프리 제품과 진정, 미백 관리가 동시에 필요합니다.", tags: ["지성", "민감성", "색소성", "탄력"] },
+    "OSNT": { title: "겉은 번들, 속은 예민 (OSNT)", desc: "겉은 번들거리지만 속은 당기는 수분 부족형 지성입니다. 홍조나 트러블이 잦으니 유수분 밸런스와 진정에 집중하세요.", tags: ["지성", "민감성", "비색소", "탄력"] },
+    "OSPW": { title: "자극 약한 어른 지성 (OSPW)", desc: "피지 분비가 활발하면서도 자극에 약하고 주름 고민이 있는 타입입니다. 저자극 안티에이징 케어가 필수적입니다.", tags: ["지성", "민감성", "색소성", "주름"] },
+    "OSNW": { title: "예민하고 거친 지성 (OSNW)", desc: "민감한 지성이면서 피부 결이 거칠고 잔주름이 생기기 쉽습니다. 수분 공급과 장벽 강화에 신경 써주세요.", tags: ["지성", "민감성", "비색소", "주름"] },
+    "ORPT": { title: "천하무적 건강 지성 (ORPT)", desc: "피지는 많지만 피부 장벽이 튼튼하고 잡티만 주의하면 되는 축복받은 지성입니다. 모공과 색소 관리에 집중하세요.", tags: ["지성", "저항성", "색소성", "탄력"] },
+    "ORNT": { title: "축복받은 꿀광 지성 (ORNT)", desc: "피부 장벽이 매우 견고하고 탄력 있는 타입입니다. 과다 피지만 적절히 조절하면 최상의 피부 상태를 유지할 수 있습니다.", tags: ["지성", "저항성", "비색소", "탄력"] },
+    "ORPW": { title: "잡티 고민 튼튼 지성 (ORPW)", desc: "피부가 튼튼하지만 유분으로 인한 트러블 흔적이나 주름이 고민인 타입입니다. 각질 관리와 레티놀 케어를 권장합니다.", tags: ["지성", "저항성", "색소성", "주름"] },
+    "ORNW": { title: "관리 편한 노화 지성 (ORNW)", desc: "피지는 많지만 민감하지는 않은 노화 진행형 지성입니다. 강력한 안티에이징 성분도 잘 받아들이는 강점이 있습니다.", tags: ["지성", "저항성", "비색소", "주름"] },
+    "DSPT": { title: "잡티 많은 민감 건성 (DSPT)", desc: "피부가 매우 건조하고 얇아서 외부 자극에 민감하며 잡티가 잘 생깁니다. 보습과 자외선 차단이 무엇보다 중요합니다.", tags: ["건성", "민감성", "색소성", "탄력"] },
+    "DSNT": { title: "수분이 필요한 사막 피부 (DSNT)", desc: "피지 분비가 적어 매우 건조하며 장벽이 약해 쉽게 붉어집니다. 고보습 세라마이드 크림으로 장벽을 세워주세요.", tags: ["건성", "민감성", "비색소", "탄력"] },
+    "DSPW": { title: "심술궂은 종합 고민형 (DSPW)", desc: "건조함, 민감도, 주름, 잡티 고민을 모두 가진 고난도 타입입니다. 충분한 영양 공급과 저자극 미백/항노화가 필요합니다.", tags: ["건성", "민감성", "색소성", "주름"] },
+    "DSNW": { title: "주름 깊은 민감 건성 (DSNW)", desc: "매우 건조하고 예민하며 주름이 잘 생기는 타입입니다. 오일 성분이 포함된 고보습 항산화 제품을 추천합니다.", tags: ["건성", "민감성", "비색소", "주름"] },
+    "DRPT": { title: "잡티 주의 건강 건성 (DRPT)", desc: "수분은 부족하지만 피부가 튼튼한 편입니다. 잡티가 생기기 쉬우니 비타민 C 성분과 보습을 함께 챙겨주세요.", tags: ["건성", "저항성", "색소성", "탄력"] },
+    "DRNT": { title: "매끄러운 중건성 (DRNT)", desc: "피부가 건조한 편이지만 결이 매끄럽고 건강합니다. 수분 위주의 보습만 잘해주면 맑고 투명한 피부를 유지합니다.", tags: ["건성", "저항성", "비색소", "탄력"] },
+    "DRPW": { title: "잡티/주름 건강 건성 (DRPW)", desc: "건조함으로 인해 주름이 깊어지기 쉽고 잡티가 눈에 띄는 타입입니다. 리치한 제형의 안티에이징 크림이 효과적입니다.", tags: ["건성", "저항성", "색소성", "주름"] },
+    "DRNW": { title: "탄력 저하 건강 건성 (DRNW)", desc: "피부 장벽은 튼튼하지만 수분 부족으로 인한 주름이 고민인 타입입니다. 영양감이 풍부한 보습제로 탄력을 관리하세요.", tags: ["건성", "저항성", "비색소", "주름"] },
 };
 
 
-const AnalysisResult: React.FC<AnalysisResultProps> = ({ result, score, skinCode, onClose, weather }) => {
+const AnalysisResult: React.FC<AnalysisResultProps> = ({ result, score, skinCode, onClose }) => {
     const profile = skinDescriptions[skinCode] || {
         title: `${skinCode} 타입`,
         desc: "피부 데이터 분석 결과, 맞춤형 관리가 필요한 상태입니다.",
@@ -35,29 +44,12 @@ const AnalysisResult: React.FC<AnalysisResultProps> = ({ result, score, skinCode
     const isPigmented = skinCode.includes('P');
     const isWrinkled = skinCode.includes('W');
 
-    // --- History State ---
-    const [history, setHistory] = useState<any[]>([]);
-
     // --- Product Filter State ---
     const [selectedCategory, setSelectedCategory] = useState('전체');
     const categories = ['전체', '클렌징', '토너/패드', '세럼/앰플', '보습', '선케어'];
 
-    useEffect(() => {
-        loadHistory();
-    }, []);
 
-    const loadHistory = async () => {
-        try {
-            const data = await AsyncStorage.getItem('skin_history');
-            if (data) {
-                const parsed = JSON.parse(data);
-                // Take last 5 records
-                setHistory(parsed.slice(-5));
-            }
-        } catch (e) {
-            console.error("Failed to load history", e);
-        }
-    };
+
 
     const handleShare = async () => {
         try {
@@ -85,18 +77,7 @@ const AnalysisResult: React.FC<AnalysisResultProps> = ({ result, score, skinCode
                         </TouchableOpacity>
                     </View>
 
-                    {/* Weather Widget (New) */}
-                    {weather && (
-                        <View className="mx-6 mb-6 bg-blue-50 p-4 rounded-xl flex-row items-center space-x-4 border border-blue-100">
-                            <View className="bg-white p-2 rounded-full">
-                                <Text className="text-2xl">☀️</Text>
-                            </View>
-                            <View className="flex-1">
-                                <Text className="text-gray-500 text-xs font-bold mb-1">오늘의 피부 날씨 ({weather.temp}°C)</Text>
-                                <Text className="text-gray-800 text-sm font-semibold">{weather.advice}</Text>
-                            </View>
-                        </View>
-                    )}
+
 
                     {/* Score Section */}
                     <View className="px-6 pt-6 pb-6 bg-white">
@@ -107,27 +88,7 @@ const AnalysisResult: React.FC<AnalysisResultProps> = ({ result, score, skinCode
                         </View>
                     </View>
 
-                    {/* Skin History Graph (New) */}
-                    {history.length > 0 && (
-                        <View className="mt-6 px-6">
-                            <Text className="text-lg font-bold text-gray-900 mb-4">피부 점수 히스토리</Text>
-                            <View className="bg-gray-50 rounded-2xl p-6 h-48 flex-row items-end justify-between border border-gray-100">
-                                {history.map((record, index) => (
-                                    <View key={index} className="items-center gap-2" style={{ width: `${100 / Math.max(history.length, 3)}%` }}>
-                                        <View className="items-center w-full">
-                                            <Text className="text-xs text-gray-500 mb-1">{record.score}</Text>
-                                            <View
-                                                className={`w-full rounded-t-lg ${index === history.length - 1 ? 'bg-clony-primary' : 'bg-gray-300'}`}
-                                                style={{ height: (record.score / 100) * 100 }} // Scale height
-                                            />
-                                        </View>
-                                        <Text className="text-[10px] text-gray-400">{record.date.slice(5)}</Text>
-                                    </View>
-                                ))}
-                                {history.length === 0 && <Text className="text-gray-400 text-center w-full">기록이 없습니다.</Text>}
-                            </View>
-                        </View>
-                    )}
+
 
                     {/* Chart Section */}
                     <View className="mt-8 px-6">

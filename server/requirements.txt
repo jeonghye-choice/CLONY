@@ -6,3 +6,6 @@ google-generativeai
 mediapipe
 opencv-python
 numpy
+pytesseract
+Pillow
+httpx

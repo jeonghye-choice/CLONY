@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "clony-mobile",
+    "name": "Clony",
     "slug": "clony-mobile",
+    "scheme": "clony",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/real-icon.png",
@@ -10,7 +11,7 @@
     "splash": {
       "image": "./assets/real-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#13F7D6"
     },
     "ios": {
       "supportsTablet": true
@@ -22,7 +23,8 @@
       },
       "package": "com.jojeonghye.clonymobile",
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "usesCleartextTraffic": true
     },
     "web": {
       "favicon": "./assets/real-icon.png"
@@ -31,6 +33,9 @@
       "eas": {
         "projectId": "4ce0ca0e-0d60-4271-a895-99e7fb3f3b9c"
       }
-    }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
   }
 }
