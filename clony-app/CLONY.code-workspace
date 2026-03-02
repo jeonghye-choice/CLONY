@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../clony-admin"
+		},
+		{
+			"path": "../../clony-project"
+		}
+	],
+	"settings": {}
+}

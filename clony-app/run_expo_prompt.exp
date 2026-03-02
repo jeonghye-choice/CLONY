@@ -1,0 +1,5 @@
+#!/usr/bin/expect -f
+spawn npm start
+expect "Proceed anonymously"
+send "\033\[B\r"
+interact

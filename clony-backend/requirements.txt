@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+google-generativeai
+google-genai
+mediapipe
+opencv-python
+numpy
+pytesseract
+Pillow
+httpx
+easyocr
+
+# OCR 보강 (무료 오픈소스)
+paddlepaddle
+paddleocr
+thefuzz
+python-Levenshtein

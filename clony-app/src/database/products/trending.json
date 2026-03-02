@@ -1,0 +1,209 @@
+{
+    "live_trending": [
+        {
+            "id": "trend_1",
+            "brand": "닥터지",
+            "matchingScore": 98,
+            "price": 38000,
+            "imageUrl": "cream.png",
+            "scanCount": 1240,
+            "skinType": "OSNW",
+            "keyIngredients": [
+                {
+                    "name": "Centella Asiatica",
+                    "nameKo": "시카",
+                    "benefit": "피부 진정"
+                },
+                {
+                    "name": "Madecassoside",
+                    "nameKo": "마데카소사이드",
+                    "benefit": "장벽 강화"
+                }
+            ]
+        },
+        {
+            "id": "trend_2",
+            "brand": "아누아",
+            "matchingScore": 95,
+            "price": 30500,
+            "imageUrl": "toner.png",
+            "scanCount": 856,
+            "skinType": "ORPT",
+            "keyIngredients": [
+                {
+                    "name": "Houttuynia Cordata",
+                    "nameKo": "어성초",
+                    "benefit": "트러블 케어"
+                },
+                {
+                    "name": "Hyaluronic Acid",
+                    "nameKo": "히알루론산",
+                    "benefit": "수분 공급"
+                }
+            ]
+        },
+        {
+            "id": "trend_3",
+            "brand": "라운드랩",
+            "matchingScore": 92,
+            "price": 24000,
+            "imageUrl": "toner.png",
+            "scanCount": 643,
+            "skinType": "DRNT",
+            "keyIngredients": [
+                {
+                    "name": "Deep Sea Water",
+                    "nameKo": "해양심층수",
+                    "benefit": "미네랄 공급"
+                },
+                {
+                    "name": "Panthenol",
+                    "nameKo": "판테놀",
+                    "benefit": "피부 보호"
+                }
+            ]
+        },
+        {
+            "id": "trend_4",
+            "brand": "에스티로더",
+            "matchingScore": 88,
+            "price": 157000,
+            "imageUrl": null,
+            "scanCount": 420,
+            "skinType": "DRNW",
+            "keyIngredients": [
+                {
+                    "name": "Bifida Ferment Lysate",
+                    "nameKo": "비피다 발효 용해물",
+                    "benefit": "안티에이징"
+                }
+            ]
+        },
+        {
+            "id": "trend_5",
+            "brand": "라로슈포제",
+            "matchingScore": 90,
+            "price": 32000,
+            "imageUrl": null,
+            "scanCount": 380,
+            "skinType": "DSPT",
+            "keyIngredients": [
+                {
+                    "name": "Panthenol",
+                    "nameKo": "판테놀",
+                    "benefit": "장벽 강화"
+                },
+                {
+                    "name": "Madecassoside",
+                    "nameKo": "마데카소사이드",
+                    "benefit": "손상 케어"
+                }
+            ]
+        },
+        {
+            "id": "trend_6",
+            "brand": "토리든",
+            "matchingScore": 96,
+            "price": 22000,
+            "imageUrl": null,
+            "scanCount": 1520,
+            "skinType": "ORNT",
+            "keyIngredients": [
+                {
+                    "name": "Hyaluronic Acid",
+                    "nameKo": "히알루론산",
+                    "benefit": "수분 공급"
+                },
+                {
+                    "name": "Panthenol",
+                    "nameKo": "판테놀",
+                    "benefit": "진정"
+                }
+            ]
+        },
+        {
+            "id": "trend_7",
+            "brand": "이니스프리",
+            "matchingScore": 94,
+            "price": 31000,
+            "imageUrl": null,
+            "scanCount": 980,
+            "skinType": "OSNT",
+            "keyIngredients": [
+                {
+                    "name": "Green Tea Seed",
+                    "nameKo": "녹차씨",
+                    "benefit": "항산화"
+                },
+                {
+                    "name": "Probiotics",
+                    "nameKo": "프로바이오틱스",
+                    "benefit": "장벽 보호"
+                }
+            ]
+        },
+        {
+            "id": "trend_8",
+            "brand": "설화수",
+            "matchingScore": 89,
+            "price": 105000,
+            "imageUrl": null,
+            "scanCount": 560,
+            "skinType": "DRNW",
+            "keyIngredients": [
+                {
+                    "name": "Ginseng",
+                    "nameKo": "인삼",
+                    "benefit": "활력 부여"
+                },
+                {
+                    "name": "Peptide",
+                    "nameKo": "펩타이드",
+                    "benefit": "탄력 개선"
+                }
+            ]
+        },
+        {
+            "id": "trend_9",
+            "brand": "이니스프리",
+            "matchingScore": 91,
+            "price": 38000,
+            "imageUrl": null,
+            "scanCount": 710,
+            "skinType": "OSPW",
+            "keyIngredients": [
+                {
+                    "name": "Vitamin C",
+                    "nameKo": "비타민C",
+                    "benefit": "미백"
+                },
+                {
+                    "name": "Green Tea Enzyme",
+                    "nameKo": "녹차 엔자임",
+                    "benefit": "각질 케어"
+                }
+            ]
+        },
+        {
+            "id": "trend_10",
+            "brand": "라네즈",
+            "matchingScore": 93,
+            "price": 28000,
+            "imageUrl": null,
+            "scanCount": 890,
+            "skinType": "DRNT",
+            "keyIngredients": [
+                {
+                    "name": "White Tea Leaf Water",
+                    "nameKo": "백차수",
+                    "benefit": "보습 기능"
+                },
+                {
+                    "name": "Ceramide",
+                    "nameKo": "세라마이드",
+                    "benefit": "장벽 강화"
+                }
+            ]
+        }
+    ]
+}

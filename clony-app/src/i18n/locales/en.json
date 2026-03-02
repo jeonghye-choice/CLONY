@@ -1,0 +1,1177 @@
+{
+    "common": {
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "add": "Add",
+        "edit": "Edit",
+        "success": "Success",
+        "error": "Error",
+        "notice": "Notice",
+        "close": "Close",
+        "apply": "Apply",
+        "retry": "Retry",
+        "submit": "Submit",
+        "view_all": "View All",
+        "currency_unit": "KRW",
+        "user_suffix": "{{name}}",
+        "explore": "Explore",
+        "delivery": "Delivery",
+        "my": "MY",
+        "home": "Home",
+        "fill_all": "Please fill in all information.",
+        "fill_required": "Please fill in required fields.",
+        "select_reason": "Please select a reason.",
+        "submitted_msg": "Application submitted. Processed in 1-2 business days.",
+        "completed": "Completed",
+        "pending": "Pending",
+        "approx": "Approx.",
+        "cosmetics": "Cosmetics"
+    },
+    "onboarding": {
+        "country": {
+            "title": "Where are you from? 🌍",
+            "subtitle": "We'll provide customized content for you.",
+            "next": "Next"
+        },
+        "nickname": {
+            "title": "Nice to meet you! 👋",
+            "subtitle": "Please set a nickname to use in Clony",
+            "placeholder": "Enter nickname",
+            "valid": "✓ Available nickname",
+            "hint": "2-10 characters (Korean/English/Number)",
+            "examples": "Examples",
+            "next": "Next",
+            "error_title": "Input Error",
+            "error_empty": "Please enter a nickname.",
+            "error_invalid": "Nicknames can be 2-10 characters long and can only contain Korean, English, and numbers."
+        }
+    },
+    "login": {
+        "title": "clony",
+        "email_placeholder": "example@email.com",
+        "password_placeholder": "••••••",
+        "stay_logged_in": "Stay logged in",
+        "login_btn": "Sign In",
+        "processing": "Verifying...",
+        "back": "Back",
+        "start_email": "Start with Email",
+        "social_connect": "SOCIAL CONNECT",
+        "no_account": "Don't have an account yet?",
+        "signup": "Sign Up",
+        "alerts": {
+            "input_error": "Input Error",
+            "input_hint": "Please enter your email and password.",
+            "login_failed": "Login Failed",
+            "login_check_hint": "Please check your email or password.",
+            "notice": "Notice",
+            "server_error_fallback": "Server unreachable. Logging in with 'Trial Mode'."
+        },
+        "mock": {
+            "trial": "Jimin (Trial)",
+            "kakao": "Jimin (Kakao)",
+            "google": "Jimin (Google)",
+            "apple": "Jimin (Apple)"
+        }
+    },
+    "signup": {
+        "title": "CREATE ACCOUNT",
+        "subtitle": "From skin analysis to custom routines,\nstart your journey with CLONY.",
+        "email_label": "EMAIL",
+        "email_placeholder": "Your email address",
+        "password_label": "PASSWORD",
+        "password_placeholder": "Set a password",
+        "nickname_label": "NICKNAME",
+        "nickname_placeholder": "Nickname for the app",
+        "submit_btn": "Create Account",
+        "processing": "Processing...",
+        "already_have_account": "Already have an account?",
+        "login": "Sign In",
+        "alerts": {
+            "input_error": "Input Error",
+            "input_hint": "Please fill in all information.",
+            "signup_complete": "Signup Complete",
+            "welcome": "Welcome, {{nickname}}!",
+            "start": "Get Started",
+            "signup_failed": "Signup Failed",
+            "error_generic": "An error has occurred.",
+            "nickname_duplicate": "Nickname Duplicate (Trial)",
+            "nickname_duplicate_hint": "\"{{nickname}}\" is already in use.",
+            "notice": "Notice",
+            "server_error_fallback": "Server unreachable. Signing up with 'Trial Mode'."
+        }
+    },
+    "analysis_loading": {
+        "scanning": "Scanning product info...",
+        "extracting": "Extracting ingredient text...",
+        "analyzing": "Analyzing harmful ingredients...",
+        "almost_done": "Almost done! Please wait...",
+        "complete": "Analysis Complete!"
+    },
+    "home": {
+        "title": "Clony",
+        "report_title": "{{userName}}'s Skin Report",
+        "skin_type": "Skin Type",
+        "view_detail": "View Detail",
+        "care_focus": {
+            "soothing": "Soothing Care",
+            "sebum": "Sebum Control",
+            "hydration": "Hydration",
+            "whitening": "Whitening",
+            "firming": "Firming/Wrinkle",
+            "barrier": "Barrier Care",
+            "elasticity": "Maintain Elasticity",
+            "clear": "Clear Skin"
+        },
+        "scan": {
+            "title": "AI Ingredient Analysis",
+            "subtitle": "Scan new cosmetics",
+            "hint": "Take a photo of the ingredient list"
+        },
+        "top_insights": {
+            "title": "Skin Reminder 💡",
+            "desc": "Did you know? Applying moisturizer within 3 minutes after washing helps lock in hydration."
+        },
+        "empty_scans": {
+            "title": "Start Your First Analysis!",
+            "desc": "Analyze ingredients and check compatibility with your skin.",
+            "button": "Scan Now"
+        },
+        "recent_scans": {
+            "title": "Recently Scans",
+            "empty": "No scanned products yet."
+        },
+        "live_trend": {
+            "title": "Real-time Analysis TOP 10",
+            "live": "LIVE",
+            "users": "{{count}} users online",
+            "view_more": "View More"
+        },
+        "sections": {
+            "live_trending": "Live Trending Analysis",
+            "recent_scans": "Recent Scans",
+            "my_cabinet": "My Cabinet",
+            "wishlist": "Wishlist"
+        },
+        "buttons": {
+            "view_all": "View All",
+            "retake": "Retake",
+            "scan": "Scan Now",
+            "add": "Add"
+        },
+        "nearby_stores": {
+            "title": "Nearby K-Beauty Stores",
+            "global_helper": "Global Helper",
+            "recommended": "Recommended Stores Near You",
+            "myeongdong": "Myeongdong Shopping Street",
+            "open_now": "Open Now",
+            "closed": "Closed",
+            "walking": "Walking",
+            "directions": "Directions",
+            "none_nearby": "No stores within 30km"
+        },
+        "match_score": "{{score}}% Match",
+        "live_trend_items": {
+            "trend_1": {
+                "name": "Red Blemish Clear Soothing Cream",
+                "action": "Analyzing soothing ingredients...",
+                "comment": "Full of soothing ingredients for sensitive skin.",
+                "review": "Excellent soothing effect. Absorbs without stickiness, great for oily skin.",
+                "warning": "Check ingredients if you have specific allergies."
+            },
+            "trend_2": {
+                "name": "Heartleaf 77 Soothing Toner",
+                "action": "Checking oily skin suitability",
+                "comment": "Good balance of sebum control and hydration.",
+                "review": "Tamed my break-outs. Perfect for use with cotton pads."
+            },
+            "trend_3": {
+                "name": "1025 Dokdo Toner",
+                "action": "Checking mild ingredients...",
+                "comment": "Mild toner with almost no irritating ingredients.",
+                "review": "Gentle and great for daily use. Seems to refine skin texture.",
+                "warning": "Rinse immediately if it gets in your eyes."
+            },
+            "trend_4": {
+                "name": "Advanced Night Repair",
+                "action": "Analyzing anti-aging ingredients",
+                "comment": "Contains high-performance anti-aging ingredients.",
+                "review": "Expensive but definitely effective. Skin texture changes."
+            },
+            "trend_5": {
+                "name": "Cicaplast Baume B5",
+                "action": "Analyzing intensive damage care",
+                "comment": "Contains ingredients that help restore the skin barrier.",
+                "review": "A must-have for skin flare-ups. Calms down by the next day."
+            },
+            "trend_6": {
+                "name": "Dive-In Low Molecular Hyaluronic Acid Serum",
+                "action": "Inner hydration complete",
+                "comment": "Excellent absorption with low molecular hyaluronic acid.",
+                "review": "Best for inner dryness. No stickiness, love it."
+            },
+            "trend_7": {
+                "name": "Green Tea Seed Hyaluronic Serum",
+                "action": "Analyzing moisture balance",
+                "comment": "Serum with excellent green tea and moisture balance.",
+                "review": "Good for plain daily use."
+            },
+            "trend_8": {
+                "name": "Retinol Cica Repair Ampoule",
+                "action": "Intensive blemish mark care",
+                "comment": "Formulated for low irritation despite containing retinol.",
+                "review": "Nothing beats this for erasing marks."
+            },
+            "trend_9": {
+                "name": "Vita C Green Tea Enzyme Brightening Serum",
+                "action": "Analyzing whitening and exfoliation",
+                "comment": "Simultaneous exfoliation and whitening care.",
+                "review": "Skin tone feels definitely clearer."
+            },
+            "trend_10": {
+                "name": "Waterfull Essence Sunscreen",
+                "action": "Irritation-free UV protection",
+                "comment": "Light and moisturizing sun cream like an essence.",
+                "review": "Applies like lotion without any white cast."
+            }
+        },
+        "search_placeholder": "Search for products...",
+        "no_scans": "No recent scans yet.",
+        "no_wishlist": "No items in wishlist.",
+        "cabinet": {
+            "title": "My Cabinet",
+            "view_all": "View All",
+            "add": "Add to Cabinet",
+            "search_placeholder": "Enter brand or product name",
+            "safe_use": "Safe Use",
+            "empty_results": "No results found.",
+            "search_hint": "Search for products to add.",
+            "stats": {
+                "total": "Total",
+                "expiring": "Expiring"
+            },
+            "skin_types": {
+                "OSPT": "Trouble-prone Oily",
+                "OSNT": "Sensitive & Oily",
+                "OSPW": "Adult Oily",
+                "OSNW": "Rough & Sensitive Oily",
+                "ORPT": "Strong & Healthy Oily",
+                "ORNT": "Blessed Glow Oily",
+                "ORPW": "Pigmented Healthy Oily",
+                "ORNW": "Easy-care Mature Oily",
+                "DSPT": "Pigmented Sensitive Dry",
+                "DSNT": "Desert-dry Thirsty",
+                "DSPW": "Complex Trouble Dry",
+                "DSNW": "Wrinkled Sensitive Dry",
+                "DRPT": "Pigmented Healthy Dry",
+                "DRNT": "Smooth Mid-Dry",
+                "DRPW": "Pigmented/Wrinkled Healthy Dry",
+                "DRNW": "Elasticity-loss Healthy Dry",
+                "unknown": "Skin needs analysis"
+            },
+            "routine_title": "My Cabinet Routine",
+            "routine_subtitle": "Manage products and check your routine",
+            "daily_routine_engine": "DAILY ROUTINE ENGINE",
+            "morning_routine": "☀️ Morning Routine",
+            "night_routine": "🌙 Night Routine",
+            "all_products_title": "All Product Management",
+            "total_products": "All products in my cabinet ({count})",
+            "expiring_soon": "Expiring {count}",
+            "search_title": "Search Product",
+            "search_hint_empty": "Search for cosmetics to add.",
+            "opened_status": "Opened",
+            "not_opened_status": "Not Opened",
+            "usage_completed": "Mark as Finished",
+            "open_now": "Open Now",
+            "edit_expiry": "Edit Expiry Date",
+            "remove_from_cabinet": "Remove from Cabinet",
+            "expiry_date_label": "Expiry Date: ",
+            "expiry_not_set": "Not Set",
+            "expiry_until": "Until {date}",
+            "add_search_btn": "Search and Add Product",
+            "routine_steps": {
+                "cleansing": {
+                    "label": "Cleansing",
+                    "guide_morning": "Wash gently with lukewarm water.",
+                    "guide_night": "Thorough double cleansing is important."
+                },
+                "prep": {
+                    "label": "Prep",
+                    "guide_morning": "Apply on a cotton pad to refine texture.",
+                    "guide_night": "Foundation building step."
+                },
+                "active": {
+                    "label": "Active",
+                    "guide_morning": "Let nutrients absorb deep into skin.",
+                    "guide_night": "Plenty of nutrients for skin to rest overnight!"
+                },
+                "moisturize": {
+                    "label": "Moisturize",
+                    "guide_morning": "Apply thinly to recharge moisture.",
+                    "guide_night": "Apply thickly like a sleeping pack."
+                },
+                "protect": {
+                    "label": "Protect",
+                    "guide_morning": "Sunscreen is a must before going out! ☀️"
+                },
+                "missing": "Product needs to be added",
+                "moisturizer_step": "Moisturizer Step"
+            }
+        }
+    },
+    "analysis": {
+        "title": "Analysis Result",
+        "subtitle": "Your skin type is",
+        "balance_report": "Skin Balance Report",
+        "solution_title": "Custom Solution Products",
+        "categories": {
+            "all": "All",
+            "cleansing": "Cleansing",
+            "toner": "Toner/Pad",
+            "serum": "Serum/Ampoule",
+            "moisturizing": "Moisturizer",
+            "suncare": "Suncare",
+            "other": "Other"
+        },
+        "no_recommendations": "No products found for this category.",
+        "disclaimer": "This result is for reference only based on AI analysis and is not a medical diagnosis. Consult a specialist for accurate diagnosis.",
+        "back_to_home": "Back to Home",
+        "traits": {
+            "dry": "DRY",
+            "oily": "OILY",
+            "resistant": "RESISTANT",
+            "sensitive": "SENSITIVE",
+            "non_pigmented": "NON-PIGMENTED",
+            "pigmented": "PIGMENTED",
+            "tight": "TIGHT",
+            "wrinkled": "WRINKLED",
+            "active": "Activity",
+            "current_status": "Current",
+            "average": "Average"
+        },
+        "safety_report": "Ingredient Safety Report",
+        "hazard_level": "Overall Hazard Level",
+        "hazard_good": "Daily Safe Usage",
+        "safe": "SAFE",
+        "grade": {
+            "low": "LOW",
+            "moderate": "MODERATE",
+            "high": "HIGH"
+        },
+        "descriptions": {
+            "OSPT": "A type with high sebum, sensitivity, and prone to blemishes. Needs oil-free products, soothing, and whitening care simultaneously.",
+            "OSNT": "Oily on the surface but tight inside. Hydration-deficient oily type. Focus on oil-water balance and soothing.",
+            "OSPW": "High sebum secretion with sensitivity and wrinkle concerns. Anti-aging care with low irritation is essential.",
+            "OSNW": "Sensitive and oily with rough skin texture and prone to fine wrinkles. Focus on hydration and barrier strengthening.",
+            "ORPT": "High sebum but strong skin barrier. Blessed oily type that only needs attention to blemishes. Focus on pore and pigment management.",
+            "ORNT": "Skin barrier is very solid and elastic. Optimal skin status can be maintained with proper sebum control.",
+            "ORPW": "Strong skin but concerned about blemish marks or wrinkles from oil. Recommended exfoliation and retinol care.",
+            "ORNW": "High sebum but not sensitive aging-prone oily type. Advantageous for absorbing strong anti-aging ingredients.",
+            "DSPT": "Thin and dry skin, sensitive to external stimuli and easily develops blemishes. Moisturization and sun protection are most important.",
+            "DSNT": "Low sebum secretion, very dry, and weak barrier. Build up the barrier with high-moisture ceramide cream.",
+            "DSPW": "Hard type with dryness, sensitivity, wrinkles, and blemishes. Needs sufficient nutrition and low-irritation whitening/anti-aging.",
+            "DSNW": "Very dry, sensitive, and prone to wrinkles. High-moisture antioxidant products with oil are recommended.",
+            "DRPT": "Lacks moisture but relatively strong skin. Prone to blemishes, so take care of Vitamin C and moisture together.",
+            "DRNT": "Skin is dry but texture is smooth and healthy. Maintains clear skin with moisture-focused care.",
+            "DRPW": "Prone to deepening wrinkles from dryness and noticeable blemishes. Rich anti-aging cream is effective.",
+            "DRNW": "Strong barrier but concerned about wrinkles from lack of moisture. Manage elasticity with nutrition-rich moisturizer."
+        }
+    },
+    "products": {
+        "dr_g_red_blemish": {
+            "name": "Dr.G Red Blemish Clear Soothing Cream",
+            "reason": "Oily skin essential that controls sebum while hydrating."
+        },
+        "anua_heartleaf_77": {
+            "name": "Anua Heartleaf 77% Soothing Toner",
+            "reason": "Effective for excessive sebum and soothing trouble."
+        },
+        "innisfree_no_sebum": {
+            "name": "Innisfree No-Sebum Mineral Powder",
+            "reason": "Keeps greasy oil matte and fresh."
+        },
+        "round_lab_dokdo_cleanser": {
+            "name": "Round Lab 1025 Dokdo Cleanser",
+            "reason": "Cleanses fine dust and impurities thoroughly."
+        },
+        "torriden_dive_in": {
+            "name": "Torriden Dive-In Low Molecular Hyaluronic Acid Serum",
+            "reason": "Moisture bomb that solves inner dryness."
+        },
+        "physiogel_dmt": {
+            "name": "Physiogel DMT Facial Cream",
+            "reason": "Powerful moisturizing barrier lasting 72 hours."
+        },
+        "bioderma_sensibio": {
+            "name": "Bioderma Sensibio H2O",
+            "reason": "Hydrating cleansing without tightness after washing."
+        },
+        "dalba_waterfull": {
+            "name": "d'Alba Waterfull Essence Sunscreen",
+            "reason": "Moisturizing sun cream like a lotion."
+        },
+        "aestura_atobarrier": {
+            "name": "Aestura Atobarrier 365 Cream",
+            "reason": "Solidly recovers collapsed skin barrier."
+        },
+        "laroche_posay_cica": {
+            "name": "La Roche-Posay Cicaplast Baume B5",
+            "reason": "SOS cream that rapidly soothes damaged skin."
+        },
+        "mediheal_teatree_pad": {
+            "name": "Mediheal Teatree Trouble Pad",
+            "reason": "Mild soothing care without irritation."
+        },
+        "dr_g_green_mild": {
+            "name": "Dr.G Green Mild Up Sun+",
+            "reason": "Inorganic sunscreen safe for sensitive skin."
+        },
+        "goodal_vit_c": {
+            "name": "Goodal Green Tangerine Vita C Blemish Serum",
+            "reason": "Brightens and vitalizes the skin for a clearer tone."
+        },
+        "ma_nyo_pure_oil": {
+            "name": "ma:nyo Pure Cleansing Oil",
+            "reason": "Gently melts away blackheads and sebum."
+        },
+        "skinfood_carrot_pad": {
+            "name": "Skinfood Carrot Carotene Calming Water Pad",
+            "reason": "Simultaneous moisture recharge and texture refinement."
+        },
+        "round_lab_birch_sun": {
+            "name": "Round Lab Birch Juice Moisturizing Sunscreen",
+            "reason": "Fresh daily sun cream without white cast."
+        },
+        "wellage_hyaluronic": {
+            "name": "Wellage Real Hyaluronic Blue 100 Ampoule",
+            "reason": "Moisture glow from 100% pure hyaluronic acid."
+        },
+        "isoi_blemish": {
+            "name": "isoi Blemish Care Up Serum",
+            "reason": "No.1 serum that erases dark blemishes and marks."
+        },
+        "numbuzin_5_pad": {
+            "name": "numbuzin No.5 Vitamin-Niacinamide Concentrated Pad",
+            "reason": "Antioxidant whitening care with attached pads."
+        },
+        "missha_vit_c": {
+            "name": "Missha Vita C Plus Eraser Toning Ampoule",
+            "reason": "Focuses on freckles and blemish care."
+        },
+        "sulwhasoo_ginseng": {
+            "name": "Sulwhasoo Concentrated Ginseng Renewing Cream",
+            "reason": "Revitalizes elasticity by enhance skin's self-healing power."
+        },
+        "ahc_eye_cream": {
+            "name": "AHC Ten Revolution Real Eye Cream For Face",
+            "reason": "Highly concentrated anti-aging for the entire face."
+        },
+        "dr_g_black_snail": {
+            "name": "Dr.G Black Snail Cream",
+            "reason": "Wrinkle and elasticity care with dense nutrition."
+        },
+        "mediheal_collagen_pad": {
+            "name": "Mediheal Collagen Ampoule Pad",
+            "reason": "Fills sagging skin with firm strength."
+        },
+        "cnp_propolis": {
+            "name": "CNP Propolis Energy Active Ampoule",
+            "reason": "Intense nutrition for honey-glow skin."
+        }
+    },
+    "dictionary": {
+        "title": "Ingredient Dictionary",
+        "subtitle": "Search and learn about ingredients",
+        "search_placeholder": "Search ingredients (e.g., Niacinamide)",
+        "results_title": "Search Results",
+        "example_title": "Search Examples",
+        "popular_title": "Popular Ingredients",
+        "empty_hint": "Search to find more ingredients!",
+        "no_results": "This ingredient is not in the official database.",
+        "labels": {
+            "category": "Category",
+            "scans": "Scans",
+            "description": "Description",
+            "effect": "Key Effects",
+            "good_for": "Recommended Skin Types",
+            "caution": "Cautions",
+            "synergy": "Good Combinations",
+            "conflict": "Avoid Combining With",
+            "aliases": "Aliases",
+            "cas_no": "CAS No"
+        },
+        "filters": {
+            "all": "All",
+            "moisturize": "Moisturize",
+            "soothing": "Soothing",
+            "whitening": "Whitening",
+            "anti_aging": "Anti-aging",
+            "firming": "Firming",
+            "pore_care": "Pore care",
+            "barrier": "Barrier",
+            "antibacterial": "Antibacterial",
+            "sunscreen": "Sunscreen",
+            "preservative": "Preservative"
+        },
+        "filter_title": "Filter by Effect"
+    },
+    "camera": {
+        "guide_title": "AI VISION",
+        "scan_hint": "Ensure the entire ingredient list is visible",
+        "accuracy_tip": "Better lighting and clarity\nwill improve analysis accuracy ✨",
+        "shutter_hint": "Tap the button to scan"
+    },
+    "countries": {
+        "kr": "South Korea",
+        "us": "United States",
+        "jp": "Japan",
+        "cn": "China",
+        "vn": "Vietnam",
+        "th": "Thailand"
+    },
+    "ocr_result": {
+        "title": "Analysis Result",
+        "synergy_report": "Skin-Synergy Report",
+        "synergy_title": "Skin Compatibility Analysis",
+        "synergy_label": "Synergy",
+        "perfect_match": "Perfect Match",
+        "highlights_title": "Skin Fit Highlights",
+        "highlights": {
+            "ingredient_fit": "Ingredient Fit",
+            "moisture_balance": "Moisture Balance",
+            "barrier_strengthening": "Barrier Strengthening"
+        },
+        "usage_guide_title": "Usage Guide",
+        "night_label": "Recommended for Night",
+        "day_label": "Recommended for Day",
+        "anytime_label": "Safe to use anytime",
+        "time_hint": "Recommended time based on ingredient properties.",
+        "conflict_title": "Ingredient Conflict Warning",
+        "conflict_hint": "Contains ingredients that may cause irritation when used together: ",
+        "caution_title": "Usage Caution",
+        "composition_title": "Ingredient Composition Ratio",
+        "composition_labels": {
+            "active": "Active",
+            "moisturizer": "Moisturizing",
+            "calming": "Calming"
+        },
+        "core_ingredients_title": "Core Ingredient Analysis",
+        "ai_detected": "AI DETECTED",
+        "ingredient_hint": "Responsible for core hydration and barrier care of this product.",
+        "ai_insight": "Clony AI Expert Insight",
+        "precautions_title": "Precautions to Note",
+        "effect_summary_title": "Expected Ingredient Effects",
+        "ai_info": "AI Ingredient Analysis Information",
+        "shopping_info": {
+            "title": "Global Shopping Info",
+            "est_duty_free": "Est. Duty-Free",
+            "select_currency": "Target Currency",
+            "converted": "Converted",
+            "rate_warning": "* Actual amount may vary based on rates & fees."
+        },
+        "delivery_info": "Order now for tonight delivery to your accommodation!",
+        "add_to_cart": "Add to Cart"
+    },
+    "baumann": {
+        "age": {
+            "title": "How old are you? 🎂",
+            "subtitle": "This information is needed for\naccurate custom recommendations",
+            "placeholder": "Enter age",
+            "hint": "Age must be a number between 10-100.",
+            "skip": "Do later",
+            "next": "Next"
+        },
+        "concerns_step": {
+            "title": "Custom Settings 🎯",
+            "subtitle": "Please carefully select the information needed\nfor accurate skin diagnosis and product recommendations.",
+            "concern_title": "What are your concerns? ✨",
+            "ingredient_title": "Any preferred ingredients? 🧪",
+            "allergy_title": "Any ingredients to avoid? ⚠️",
+            "multiple_choice": "Multiple choices possible",
+            "none_preferred": "None in particular",
+            "none_allergy": "I'm fine (None)",
+            "prev": "Previous",
+            "next_start": "Next Step (Start Survey)"
+        },
+        "concerns": {
+            "acne": "Acne/Blemish",
+            "dryness": "Dryness",
+            "wrinkle": "Wrinkle/Elasticity",
+            "pigmentation": "Pigmentation/Freckles",
+            "redness": "Redness/Sensitivity",
+            "pore": "Pores",
+            "oil": "Excessive Sebum"
+        },
+        "ingredients": {
+            "cica": "Centella (Cica)",
+            "hyaluronic": "Hyaluronic Acid",
+            "vitamin_c": "Vitamin C",
+            "niacinamide": "Niacinamide",
+            "retinol": "Retinol",
+            "panthenol": "Panthenol",
+            "salicylic": "Salicylic Acid (BHA)"
+        },
+        "allergy": {
+            "fragrance": "Artificial Fragrance",
+            "alcohol": "Ethanol/Alcohol",
+            "paraben": "Paraben",
+            "silicone": "Silicone",
+            "mineral_oil": "Mineral Oil",
+            "essential_oil": "Essential Oil"
+        },
+        "survey": {
+            "question_label": "Question {current} / {total}",
+            "hint": "Please choose the answer that fits best",
+            "od": "Oily/Dry",
+            "sr": "Sensitive/Resistant",
+            "pn": "Pigmentation",
+            "tw": "Elasticity/Wrinkle"
+        },
+        "questions": {
+            "1": {
+                "text": "What is your skin status 2-3 hours after washing?",
+                "options": [
+                    "Very dry and tight",
+                    "Slightly dry",
+                    "Normal",
+                    "Slightly oily",
+                    "Very oily"
+                ]
+            },
+            "2": {
+                "text": "The pore size in your T-zone (forehead, nose) is?",
+                "options": [
+                    "Almost invisible",
+                    "Small",
+                    "Normal",
+                    "Large",
+                    "Very large"
+                ]
+            },
+            "3": {
+                "text": "Does your makeup stay well?",
+                "options": [
+                    "Easily cakey/flakes",
+                    "Slightly cakey",
+                    "Normal",
+                    "Stays well",
+                    "Stays very well"
+                ]
+            },
+            "4": {
+                "text": "When using new cosmetics,",
+                "options": [
+                    "Use without problems",
+                    "Occasional problems",
+                    "Normal",
+                    "Frequent trouble",
+                    "Almost always trouble"
+                ]
+            },
+            "5": {
+                "text": "Does your skin turn red or feel hot?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Very often"
+                ]
+            },
+            "6": {
+                "text": "Frequency of feeling itchy or stinging?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Often",
+                    "Very often"
+                ]
+            },
+            "7": {
+                "text": "Degree of scars or acne marks remaining?",
+                "options": [
+                    "Hardly remains",
+                    "Remains a little",
+                    "Normal",
+                    "Remains long",
+                    "Remains very long"
+                ]
+            },
+            "8": {
+                "text": "Freckles or pigmentation status?",
+                "options": [
+                    "None",
+                    "Rarely",
+                    "Some",
+                    "Many",
+                    "Very many"
+                ]
+            },
+            "9": {
+                "text": "When exposed to the sun,",
+                "options": [
+                    "Doesn't tan well",
+                    "Tans a little",
+                    "Normal",
+                    "Tans easily",
+                    "Tans very easily"
+                ]
+            },
+            "10": {
+                "text": "Wrinkles between eyebrows or mouth area?",
+                "options": [
+                    "None",
+                    "Rarely",
+                    "Some",
+                    "Yes",
+                    "Many"
+                ]
+            },
+            "11": {
+                "text": "Skin sagging or loss of elasticity?",
+                "options": [
+                    "None",
+                    "Rarely",
+                    "Some",
+                    "Yes",
+                    "Severe"
+                ]
+            },
+            "12": {
+                "text": "Fine wrinkles around the eyes?",
+                "options": [
+                    "None",
+                    "Rarely",
+                    "Some",
+                    "Yes",
+                    "Many"
+                ]
+            }
+        },
+        "detail": {
+            "title": "Skin Type Detailed Analysis",
+            "subtitle": "We analyzed your skin characteristics for each category like MBTI",
+            "retake": "Retake Survey",
+            "seasonal_hint": "Skin condition can change with seasons, environment, and lifestyle",
+            "od_title": "Oil vs Moisture",
+            "od_dry": "Dry",
+            "od_oily": "Oily",
+            "sr_title": "Sensitivity",
+            "sr_resistant": "Resistant",
+            "sr_sensitive": "Sensitive",
+            "pn_title": "Pigmentation",
+            "pn_non": "Non-Pigmented",
+            "pn_pigmented": "Pigmented",
+            "tw_title": "Elasticity",
+            "tw_tight": "Tight",
+            "tw_wrinkled": "Wrinkled",
+            "type_summary": "You have a {percentage}% tendency towards {label}"
+        }
+    },
+    "my": {
+        "title": "My Clony",
+        "stats": {
+            "orders": "Orders",
+            "reviews": "Reviews",
+            "inquiries": "Inquiries",
+            "coupons": "Coupons",
+            "points": "Points",
+            "coupons_unit": "Items",
+            "points_unit": "P",
+            "wishlist_unit": "Items"
+        },
+        "order_status": {
+            "title": "Order / Tracking",
+            "view_all": "View All",
+            "pending_payment": "Pending",
+            "paid": "Paid",
+            "preparing": "Preparing",
+            "shipping": "Shipping",
+            "delivered": "Delivered",
+            "confirmed": "Confirmed"
+        },
+        "order_management": {
+            "title": "Order Management",
+            "confirm_purchase": "Confirm Purchase",
+            "exchange_return": "Exchange/Return",
+            "confirmed_msg": "Purchase confirmed! Points will be earned. 🎉",
+            "others": "and {{count}} others"
+        },
+        "sections": {
+            "shopping": "Shopping Info",
+            "activity": "My Activity",
+            "settings": "Settings"
+        },
+        "menu": {
+            "order_history": "Order History",
+            "return_history": "Cancellation/Return History",
+            "payment_methods": "Payment Methods",
+            "shipping_addresses": "Shipping Addresses",
+            "view_all_cabinet": "View All Cabinet",
+            "writable_reviews": "Reviews to Write",
+            "my_reviews": "My Reviews",
+            "inquiry_history": "1:1 Inquiry History",
+            "notifications": "Notifications",
+            "notices": "Notices",
+            "logout": "Logout"
+        },
+        "profile_edit": {
+            "title": "Edit Profile Information",
+            "nickname": "Nickname",
+            "placeholder": "Enter nickname",
+            "save": "Save",
+            "cancel": "Cancel",
+            "error_short": "Nickname must be at least 2 characters."
+        },
+        "payment": {
+            "title": "Payment Methods",
+            "default": "Default Payment",
+            "no_cards": "No registered payment methods",
+            "add_hint": "Add a card for faster checkout",
+            "set_default": "Set Default",
+            "delete_confirm": "Delete card?",
+            "delete_msg": "Are you sure you want to delete this card?",
+            "add_new": "Add New Card",
+            "add_btn": "Register",
+            "form": {
+                "bank": "Bank / Card Name",
+                "bank_placeholder": "e.g. Visa",
+                "card_number": "Card Number",
+                "expiry": "Expiry Date",
+                "expiry_placeholder": "MM / YY"
+            },
+            "security_hint": "Card info is encrypted and stored safely."
+        },
+        "address": {
+            "title": "Shipping Addresses",
+            "default": "Default Address",
+            "edit": "Edit",
+            "delete": "Delete",
+            "set_default": "Set as Default",
+            "add_new": "Add New Address",
+            "form": {
+                "recipient": "Recipient",
+                "phone": "Phone",
+                "address": "Address",
+                "detail": "Detail Address",
+                "name_placeholder": "e.g. Home",
+                "address_placeholder": "Enter street address",
+                "detail_placeholder": "Apt, floor, etc.",
+                "limit_hint": "Store up to 10 addresses. Default address is selected automatically.",
+                "no_addresses": "No addresses registered",
+                "add_hint": "Register your frequent shipping addresses",
+                "delete_confirm": "Delete address?",
+                "delete_msg": "Are you sure you want to delete this address?"
+            }
+        },
+        "modals": {
+            "order_history": {
+                "title": "Order / Tracking History",
+                "empty": "No order history found",
+                "tracking": "Tracking No: {{no}}",
+                "track_btn": "Track Delivery"
+            },
+            "return_history": {
+                "title": "Cancellation/Return History",
+                "empty": "No history found",
+                "reason_prefix": "Reason: ",
+                "refund_amount": "Estimated Refund",
+                "types": {
+                    "cancel": "Cancel",
+                    "return": "Return",
+                    "exchange": "Exchange"
+                }
+            },
+            "reviews": {
+                "writable_title": "Reviews to Write ({{count}})",
+                "my_title": "My Reviews ({{count}})",
+                "empty_writable": "You've written all reviews!",
+                "empty_my": "No reviews written yet",
+                "thanks": "Thank you for your valuable reviews 💚",
+                "point_hint": "Earn 500P per review! Write before the deadline.",
+                "deadline": "Deadline: {{date}}",
+                "placeholder": "Leave an honest review (min. 20 chars)",
+                "helpful": "Helpful {{count}}",
+                "earn_title": "Review Point Earned",
+                "success_msg": "Review registered! 500P earned. 🎉",
+                "write_btn": "Write Review"
+            },
+            "inquiry": {
+                "title": "1:1 Inquiry History",
+                "empty": "No inquiry history found",
+                "add_new": "New Inquiry",
+                "form_title": "Write New Inquiry",
+                "category": "Category",
+                "content": "Content",
+                "placeholder": "Enter details of your inquiry.",
+                "avg_time": "Avg response: 1-2 business days",
+                "answer": "Answer",
+                "no_answer": "No answer yet. We'll respond soon.",
+                "categories": {
+                    "delivery": "Delivery",
+                    "product": "Product",
+                    "payment": "Payment",
+                    "return": "Exchange/Return",
+                    "others": "Others"
+                }
+            },
+            "notice": {
+                "title": "Notices",
+                "empty": "No notices found",
+                "categories": {
+                    "update": "Update",
+                    "maintenance": "Maintenance",
+                    "event": "Event"
+                }
+            },
+            "coupon": {
+                "title": "My Coupons",
+                "empty": "No coupons found",
+                "used": "Used",
+                "min_order": "Min. {{amount}} order",
+                "expiry": "Until {{date}}"
+            },
+            "point": {
+                "title": "Point History",
+                "total": "Usable Points"
+            },
+            "wishlist": {
+                "title": "Wishlist ({{count}})",
+                "empty": "No items in wishlist",
+                "add_cart": "Add to Cart",
+                "added_msg": "Added to cart."
+            },
+            "confirm_purchase": {
+                "title": "Confirm Purchase?",
+                "hint": "Return/Exchange is not possible after confirmation.\nDid you check the product carefully?",
+                "confirm_btn": "Confirm",
+                "success_msg": "Purchase confirmed! Points earned. 🎉"
+            },
+            "return_order": {
+                "title": "Exchange/Return Request",
+                "type_title": "Request Type",
+                "reason_title": "Reason",
+                "hint": "Possible within 7 days of receipt. Return shipping fee may apply.",
+                "submit_btn": "Submit Request",
+                "types": {
+                    "return": "Return",
+                    "exchange": "Exchange"
+                },
+                "reasons": {
+                    "mind_change": "Simple mind change",
+                    "defective": "Defective product",
+                    "wrong_item": "Wrong item delivered",
+                    "damaged": "Damaged in transit",
+                    "others": "Others"
+                }
+            }
+        }
+    },
+    "cart": {
+        "title": "Cart",
+        "empty_title": "Your cart is empty",
+        "empty_desc": "Add products scanned via AI!",
+        "go_shopping": "Go Shopping",
+        "clear_all": "Clear All",
+        "item_count": "{{count}} items",
+        "remove_confirm_title": "Remove Item",
+        "remove_confirm_msg": "Are you sure you want to remove this item?",
+        "clear_confirm_title": "Clear Cart",
+        "clear_confirm_msg": "Are you sure you want to clear your cart?",
+        "match_percentage": "{{percentage}}% Match",
+        "delivery_options": "Delivery Options",
+        "same_day": "Same-day Delivery",
+        "same_day_desc": "Orders placed before 6 PM",
+        "dawn": "Dawn Delivery",
+        "dawn_desc": "Arrives by 7 AM",
+        "hotel": "Hotel Check-in Match",
+        "hotel_desc_today": "Delivery to lobby today at {{time}}",
+        "hotel_desc_tomorrow": "Delivery tomorrow 7 AM (Check-in after 18:00)",
+        "hotel_desc_default": "Receive according to check-in time",
+        "set_time": "Set Time",
+        "free": "Free",
+        "price_summary": {
+            "title": "Price Summary",
+            "items": "Items Total",
+            "delivery": "Delivery Fee",
+            "total": "Total Amount",
+            "checkout_btn": "Pay ₩{{amount}}"
+        },
+        "time_picker": {
+            "title": "Please select check-in time",
+            "hint": "* For check-ins after 18:00, delivery arrives at 7 AM next day.",
+            "same_day_badge": "Same-day"
+        },
+        "checkout_confirm": {
+            "title": "Proceed with purchase?",
+            "desc": "Total {{count}} items\nTotal Amount: ₩{{amount}}",
+            "hotel_today": "\n(Hotel Delivery: Arrives today at {{time}})",
+            "hotel_tomorrow": "\n(Hotel Delivery: Arrives tomorrow at 7 AM)"
+        },
+        "same_day_unavailable_title": "Same-day Delivery Closed",
+        "same_day_unavailable_msg": "Same-day delivery is closed after 6 PM."
+    },
+    "checkout_address": {
+        "title": "Delivery Address",
+        "recipient": "Recipient Name *",
+        "recipient_placeholder": "Enter full name",
+        "phone": "Phone Number *",
+        "phone_placeholder": "+82 10-1234-5678",
+        "phone_hint": "Include country code (e.g. +82 for Korea)",
+        "address_section": "Address *",
+        "postal_code_placeholder": "Postal Code",
+        "search_btn": "Search",
+        "address_placeholder": "Street Address",
+        "detail_placeholder": "Apt, Suite, Room No. (optional)",
+        "memo": "Delivery Note (optional)",
+        "memo_placeholder": "e.g. Please leave at front door",
+        "hotel_section": "Hotel / Accommodation",
+        "hotel_name_placeholder": "Hotel name",
+        "hotel_room_placeholder": "Room number",
+        "save_address": "Save as default address",
+        "save_address_hint": "Use this address for future orders",
+        "order_summary": "Order Summary",
+        "order_count": "{{count}} item(s)",
+        "order_more": "+{{count}} more",
+        "total": "Total",
+        "pay_btn": "Proceed to Payment",
+        "search_modal_placeholder": "Enter street, building or postal code",
+        "search_result_type": "Street Address",
+        "search_empty": "No results found.",
+        "search_use_input": "Use \"{{query}}\" as address",
+        "search_hint": "Search by street, building or area name",
+        "validation": {
+            "name_required": "Please enter the recipient name.",
+            "phone_required": "Please enter a phone number.",
+            "address_required": "Please enter the delivery address.",
+            "detail_required": "Please enter the detailed address."
+        }
+    },
+    "delivery": {
+        "order_tracking": "Order Tracking",
+        "eta": "Estimated arrival",
+        "eta_minutes": "~{{min}} min",
+        "progress": "Delivery Progress",
+        "stages": "stages",
+        "timeline": "Timeline",
+        "in_progress": "In Progress",
+        "order_info": "Order Info",
+        "items": "Items",
+        "destination": "Destination",
+        "delivered_title": "Delivered Successfully!",
+        "delivered_desc": "Thank you for shopping with Clony.",
+        "stage_ordered": "Order Confirmed",
+        "stage_ordered_desc": "Your order has been received.",
+        "stage_preparing": "Preparing Your Items",
+        "stage_preparing_desc": "Staff is picking your products.",
+        "stage_on_the_way": "On the Way",
+        "stage_on_the_way_desc": "Your rider is heading to you.",
+        "stage_nearby": "Almost There!",
+        "stage_nearby_desc": "Rider is nearby. Please be ready.",
+        "stage_delivered": "Delivered!",
+        "stage_delivered_desc": "Your order has been delivered. Enjoy!",
+        "tracking_title": "Delivery Status",
+        "tracking_subtitle": "Track your order status here",
+        "no_deliveries": "No active deliveries",
+        "no_deliveries_desc": "Your order status will appear here",
+        "tracking_btn": "Track Order",
+        "tracking_number": "Tracking No.",
+        "estimated_date": "Estimated Date",
+        "service_area": "Service Area Check",
+        "service_area_search": "Search address",
+        "service_area_input": "Enter address",
+        "service_area_check_btn": "Check Availability",
+        "service_available": "Great news! Clony delivery is available in this area. 🚀",
+        "service_unavailable": "Sorry, delivery is not yet available in this area. 😢",
+        "order_step_completed": "Order Placed",
+        "order_step_preparing": "Preparing",
+        "order_step_shipping": "Shipping",
+        "order_step_delivered": "Delivered",
+        "tracking_detail_title": "Detailed Tracking",
+        "delivery_logs": "Delivery Logs",
+        "delivery_logs_scheduled": "Scheduled",
+        "delivery_logs_courier": "Courier"
+    },
+    "payment": {
+        "success_title": "Order Complete!",
+        "success_desc": "Your order has been placed successfully.",
+        "order_id": "Order ID",
+        "total": "Total",
+        "go_home": "Back to Home",
+        "title": "Payment",
+        "order_summary": "Order Summary",
+        "select_method": "Select Payment Method",
+        "select_method_cta": "Select a payment method",
+        "pay_btn": "Pay",
+        "secure_badge": "Secured by 256-bit SSL encryption",
+        "processing": "Processing payment...",
+        "processing_hint": "Please do not close this screen",
+        "confirm_title": "Confirm Payment",
+        "method": "Method",
+        "fx_notice": "Exchange rates are indicative only",
+        "qr_hint": "Open your app and scan the QR code to pay",
+        "qr_generated": "Generated at checkout",
+        "paid_confirm": "Payment Done"
+    },
+    "my_mock": {
+        "coupons": {
+            "c1_name": "New Member Welcome Coupon",
+            "c1_discount": "5,000 KRW",
+            "c1_min": "Over 30,000 KRW purchase",
+            "c2_name": "Skin Analysis Completion Coupon",
+            "c2_discount": "10%",
+            "c2_min": "Max 5,000 KRW discount",
+            "c3_name": "First Purchase 3,000 KRW Discount",
+            "c3_discount": "3,000 KRW",
+            "c3_min": "Over 10,000 KRW purchase"
+        },
+        "points": {
+            "p1_title": "Lunar New Year Event",
+            "p2_title": "Review Reward",
+            "p3_title": "Product Purchase Reward"
+        },
+        "orders": {
+            "item1": "1 Dokdo Toner",
+            "item2": "1 Moisture Cream",
+            "item3": "1 Sunscreen SPF50",
+            "item4": "1 Cleansing Foam",
+            "item5": "1 Ampoule",
+            "price_38k": "38,000 KRW",
+            "price_22k": "22,000 KRW",
+            "price_45k": "45,000 KRW"
+        },
+        "inquiries": {
+            "inq1_title": "Delivery Delay Inquiry",
+            "inq1_answer": "Hello. We apologize for the delivery delay. It is delayed by 1-2 days due to courier circumstances.",
+            "inq2_title": "Product Ingredients Inquiry"
+        },
+        "reviews": {
+            "rev1_name": "Dokdo Toner 200ml",
+            "rev1_brand": "Round Lab",
+            "rev1_content": "My skin feels so moist and no irritation! I have sensitive skin but no troubles at all. 100% repurchasing!",
+            "rev2_name": "Moisture Cream 50ml",
+            "rev2_brand": "COSRX",
+            "rev2_content": "Great moisturizing power and spreads well. The scent is a bit strong, so minus one star."
+        },
+        "returns": {
+            "reason1": "Defective Product",
+            "reason2": "Wrong Item Delivered",
+            "item1": "Dokdo Toner",
+            "item2": "Moisture Cream",
+            "price_19k": "19,000 KRW"
+        },
+        "notices": {
+            "n1_title": "Large Cosmetic DB Update Notice",
+            "n1_content": "Hello, this is the Clony Team.\n\nThe cosmetic database has been updated as of Feb 18th.\nYou can now check info for the latest cosmetics.\n\n[Main Updates]\n- 15 new brands added\n- 500+ new 2026 S/S products registered\n- Ingredient analysis algorithm improved\n\nWe will continue to strive for accurate information.\nThank you.",
+            "n2_title": "Server Stabilization & Bug Fixes",
+            "n2_content": "Hello.\n\nServer maintenance and bug fixes were conducted for better service stability.\n\n- Fixed intermittent login failures\n- Optimized app launch speed\n\nWe apologize for the inconvenience.\nWe will do our best for better service.",
+            "n3_title": "Lunar New Year Point Event",
+            "n3_content": "Happy New Year! 🙇‍♂️\n\nTo celebrate Lunar New Year, we're giving 1,000P to all members.\nYou can check your points in My Page > Point History.\n\nHave a great holiday with Clony!",
+            "cat_update": "Update",
+            "cat_maintenance": "Maintenance",
+            "cat_event": "Event"
+        }
+    }
+}

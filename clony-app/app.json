@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Clony",
+    "slug": "clony-mobile",
+    "scheme": "clony",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/main_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/main_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#13F7D6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jojeonghye.clonymobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/main_logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jojeonghye.clonymobile",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "favicon": "./src/assets/main_logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ce0ca0e-0d60-4271-a895-99e7fb3f3b9c"
+      }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+    "live_trending": [
+        {
+            "id": "trend_1",
+            "brand": "닥터지",
+            "matchingScore": 98,
+            "price": 38000,
+            "imageUrl": "cream.png",
+            "scanCount": 1240,
+            "skinType": "OSNW",
+            "keyIngredients": [
+                {
+                    "name": "Centella Asiatica",
+                    "nameKo": "시카",
+                    "benefit": "피부 진정"
+                },
+                {
+                    "name": "Madecassoside",
+                    "nameKo": "마데카소사이드",
+                    "benefit": "장벽 강화"
+                }
+            ]
+        },
+        {
+            "id": "trend_2",
+            "brand": "아누아",
+            "matchingScore": 95,
+            "price": 30500,
+            "imageUrl": "toner.png",
+            "scanCount": 856,
+            "skinType": "ORPT",
+            "keyIngredients": [
+                {
+                    "name": "Houttuynia Cordata",
+                    "nameKo": "어성초",
+                    "benefit": "트러블 케어"
+                },
+                {
+                    "name": "Hyaluronic Acid",
+                    "nameKo": "히알루론산",
+                    "benefit": "수분 공급"
+                }
+            ]
+        },
+        {
+            "id": "trend_3",
+            "brand": "라운드랩",
+            "matchingScore": 92,
+            "price": 24000,
+            "imageUrl": "toner.png",
+            "scanCount": 643,
+            "skinType": "DRNT",
+            "keyIngredients": [
+                {
+                    "name": "Deep Sea Water",
+                    "nameKo": "해양심층수",
+                    "benefit": "미네랄 공급"
+                },
+                {
+                    "name": "Panthenol",
+                    "nameKo": "판테놀",
+                    "benefit": "피부 보호"
+                }
+            ]
+        },
+        {
+            "id": "trend_4",
+            "brand": "에스티로더",
+            "matchingScore": 88,
+            "price": 157000,
+            "imageUrl": null,
+            "scanCount": 420,
+            "skinType": "DRNW",
+            "keyIngredients": [
+                {
+                    "name": "Bifida Ferment Lysate",
+                    "nameKo": "비피다 발효 용해물",
+                    "benefit": "안티에이징"
+                }
+            ]
+        }
+    ]
+}

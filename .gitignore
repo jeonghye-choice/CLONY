@@ -52,3 +52,11 @@ uploads/
 *.log
 main_backup*.py
 debug_gemini.py
+
+# Large Datasets
+056.*
+clony-backend/venv/
+clony-backend/.venv/
+**/venv/
+**/.venv/
+clony-backend/clony.db

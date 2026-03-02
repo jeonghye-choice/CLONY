@@ -1,0 +1,1177 @@
+{
+    "common": {
+        "confirm": "확인",
+        "cancel": "취소",
+        "save": "저장",
+        "delete": "삭제",
+        "add": "추가",
+        "edit": "수정",
+        "success": "완료",
+        "error": "오류",
+        "notice": "알림",
+        "close": "닫기",
+        "apply": "적용",
+        "retry": "재시도",
+        "submit": "등록",
+        "view_all": "전체보기",
+        "currency_unit": "원",
+        "user_suffix": "{{name}}님",
+        "explore": "탐색",
+        "delivery": "배송",
+        "my": "MY",
+        "home": "홈",
+        "fill_all": "모든 정보를 입력해주세요.",
+        "fill_required": "필수 항목을 모두 입력해주세요.",
+        "select_reason": "사유를 선택해주세요.",
+        "submitted_msg": "신청이 접수되었습니다. 1-2 영업일 내 처리됩니다.",
+        "completed": "답변완료",
+        "pending": "답변대기",
+        "approx": "약",
+        "cosmetics": "화장품"
+    },
+    "onboarding": {
+        "country": {
+            "title": "어느 국가에서 오셨나요? 🌍",
+            "subtitle": "사용자님께 맞는 맞춤 콘텐츠를 제공해 드릴게요.",
+            "next": "다음"
+        },
+        "nickname": {
+            "title": "반가워요! 👋",
+            "subtitle": "Clony에서 사용할 닉네임을 설정해주세요",
+            "placeholder": "닉네임 입력",
+            "valid": "✓ 사용 가능한 닉네임",
+            "hint": "2-10자 (한글/영문/숫자)",
+            "examples": "예시",
+            "next": "다음",
+            "error_title": "입력 오류",
+            "error_empty": "닉네임을 입력해주세요.",
+            "error_invalid": "닉네임은 2-10자의 한글, 영문, 숫자만 사용 가능합니다."
+        }
+    },
+    "login": {
+        "title": "clony",
+        "email_placeholder": "example@email.com",
+        "password_placeholder": "••••••",
+        "stay_logged_in": "로그인 상태 유지",
+        "login_btn": "로그인",
+        "processing": "확인 중...",
+        "back": "뒤로가기",
+        "start_email": "이메일로 시작하기",
+        "social_connect": "SOCIAL CONNECT",
+        "no_account": "아직 계정이 없으신가요?",
+        "signup": "회원가입",
+        "alerts": {
+            "input_error": "입력 오류",
+            "input_hint": "이메일과 비밀번호를 입력해주세요.",
+            "login_failed": "로그인 실패",
+            "login_check_hint": "이메일 또는 비밀번호를 확인해주세요.",
+            "notice": "알림",
+            "server_error_fallback": "서버와 연결할 수 없어 '체험 모드'로 로그인합니다."
+        },
+        "mock": {
+            "trial": "지민 (체험)",
+            "kakao": "지민 (카카오)",
+            "google": "지민 (Google)",
+            "apple": "지민 (Apple)"
+        }
+    },
+    "signup": {
+        "title": "CREATE ACCOUNT",
+        "subtitle": "피부 타입 진단부터 맞춤 루틴까지,\nCLONY와 함께 시작하세요.",
+        "email_label": "EMAIL",
+        "email_placeholder": "사용하실 이메일",
+        "password_label": "PASSWORD",
+        "password_placeholder": "비밀번호 설정",
+        "nickname_label": "NICKNAME",
+        "nickname_placeholder": "앱에서 사용할 닉네임",
+        "submit_btn": "계정 만들기",
+        "processing": "처리 중...",
+        "already_have_account": "이미 계정이 있으신가요?",
+        "login": "로그인",
+        "alerts": {
+            "input_error": "입력 오류",
+            "input_hint": "모든 정보를 입력해주세요.",
+            "signup_complete": "회원가입 완료",
+            "welcome": "{{nickname}}님 환영합니다!",
+            "start": "시작하기",
+            "signup_failed": "가입 실패",
+            "error_generic": "오류가 발생했습니다.",
+            "nickname_duplicate": "닉네임 중복 (체험)",
+            "nickname_duplicate_hint": "\"{{nickname}}\"(은)는 이미 사용 중인 닉네임입니다.",
+            "notice": "알림",
+            "server_error_fallback": "서버와 연결할 수 없어 '체험 모드'로 가입합니다."
+        }
+    },
+    "analysis_loading": {
+        "scanning": "제품 정보를 스캔하는 중...",
+        "extracting": "전성분 텍스트 추출 중...",
+        "analyzing": "유해 성분 분석 중...",
+        "almost_done": "거의 다 됐어요! 잠시만요...",
+        "complete": "분석 완료!"
+    },
+    "home": {
+        "title": "Clony",
+        "report_title": "{{userName}}님의 피부 리포트",
+        "skin_type": "피부 타입",
+        "view_detail": "자세히 보기",
+        "care_focus": {
+            "soothing": "진정 케어",
+            "sebum": "피지 조절",
+            "hydration": "수분 공급",
+            "whitening": "미백 관리",
+            "firming": "탄력/주름",
+            "barrier": "장벽 강화",
+            "elasticity": "탄력 유지",
+            "clear": "맑은 피부"
+        },
+        "scan": {
+            "title": "AI 성분 분석",
+            "subtitle": "새로운 화장품 스캔하기",
+            "hint": "카메라로 성분표를 찍어보세요"
+        },
+        "top_insights": {
+            "title": "오늘의 피부 리마인더 💡",
+            "desc": "알고 계셨나요? 세안 후 3분 이내에 보습제를 발라야 수분 손실을 막을 수 있어요."
+        },
+        "empty_scans": {
+            "title": "첫 성분 분석을 시작해 보세요!",
+            "desc": "화장품 성분을 분석하고 내 피부와의 궁합을 확인해 보세요.",
+            "button": "지금 스캔하기"
+        },
+        "recent_scans": {
+            "title": "최근 스캔한 제품",
+            "empty": "아직 스캔한 제품이 없습니다."
+        },
+        "live_trend": {
+            "title": "실시간 분석 TOP 10",
+            "live": "LIVE",
+            "users": "{{count}}명 접속 중",
+            "view_more": "인기 화장품 더보기"
+        },
+        "sections": {
+            "live_trending": "실시간 인기 분석 제품",
+            "recent_scans": "최근 스캔한 제품",
+            "my_cabinet": "내 화장대",
+            "wishlist": "관심 제품"
+        },
+        "buttons": {
+            "view_all": "전체보기",
+            "retake": "재진단",
+            "scan": "스캔하기",
+            "add": "추가"
+        },
+        "nearby_stores": {
+            "title": "내 주변 K-뷰티 매장",
+            "global_helper": "Global Helper",
+            "recommended": "내 주변 추천 매장",
+            "myeongdong": "명동 쇼킹 거리 중심",
+            "open_now": "영업 중",
+            "closed": "영업 종료",
+            "walking": "도보",
+            "directions": "길찾기",
+            "none_nearby": "30km 이내에 매장이 없습니다."
+        },
+        "match_score": "{{score}}% 매치",
+        "live_trend_items": {
+            "trend_1": {
+                "name": "레드 블레미쉬 클리어 수딩 크림",
+                "action": "진정 성분 분석 중..",
+                "comment": "민감성 피부를 위한 진정 성분이 가득해요.",
+                "review": "진정 효과가 정말 뛰어나요. 끈적임 없이 흡수되어서 지성 피부에도 부담 없습니다.",
+                "warning": "특이 체질인 경우 성분을 확인하세요."
+            },
+            "trend_2": {
+                "name": "어성초 77 수딩 토너",
+                "action": "지성 피부 적합도 확인",
+                "comment": "피지 조절과 수분 공급 밸런스가 좋아요.",
+                "review": "트러블이 많이 들어갔어요. 닦토로 쓰기 딱 좋습니다."
+            },
+            "trend_3": {
+                "name": "1025 독도 토너",
+                "action": "순한 성분 체크 중",
+                "comment": "자극적인 성분이 거의 없는 순한 토너입니다.",
+                "review": "자극 없이 순해서 매일 쓰기 좋아요. 각질 정돈도 되는 것 같아요.",
+                "warning": "눈에 들어갔을 때 즉시 씻어내세요."
+            },
+            "trend_4": {
+                "name": "어드밴스드 나이트 리페어",
+                "action": "노화 방지 성분 분석",
+                "comment": "고기능성 안티에이징 성분이 함유되어 있습니다.",
+                "review": "비싸지만 확실히 효과가 있어요. 피부결이 달라집니다."
+            },
+            "trend_5": {
+                "name": "시카플라스트 밤 B5",
+                "action": "집중 손상 케어 분석",
+                "comment": "피부 장벽 회복에 도움을 주는 성분이 포함되어 있습니다.",
+                "review": "피부 뒤집어졌을 때 필수템입니다. 다음 날이면 가라앉아요."
+            },
+            "trend_6": {
+                "name": "다이브인 저분자 히알루론산 세럼",
+                "action": "속보습 충전 완료",
+                "comment": "저분자 히알루론산으로 흡수력이 뛰어납니다.",
+                "review": "속건조 잡는데 최고예요. 끈적임 없어서 좋아요."
+            },
+            "trend_7": {
+                "name": "그린티 씨드 히알루론산 세럼",
+                "action": "수분 밸런스 분석 중",
+                "comment": "녹차 성분과 수분 밸런스가 뛰어난 세럼입니다.",
+                "review": "무난하게 데일리로 쓰기 좋아요."
+            },
+            "trend_8": {
+                "name": "레티놀 시카 흔적 앰플",
+                "action": "트러블 흔적 집중 관리",
+                "comment": "레티놀 성분이지만 저자극으로 배합되었습니다.",
+                "review": "흔적 지우는 데 이만한 게 없어요."
+            },
+            "trend_9": {
+                "name": "비타C 그린티 엔자임 브라이트닝",
+                "action": "미백 및 각질 정돈 분석",
+                "comment": "각질 케어와 미백을 동시에 잡을 수 있습니다.",
+                "review": "피부톤이 확실히 맑아진 느낌이에요."
+            },
+            "trend_10": {
+                "name": "워터풀 에센스 선크림",
+                "action": "자극 없는 자외선 차단",
+                "comment": "에센스처럼 가볍고 촉촉한 선크림입니다.",
+                "review": "백탁 현상 없이 로션처럼 발려요."
+            }
+        },
+        "search_placeholder": "제품을 검색해보세요...",
+        "no_scans": "최근 스캔한 제품이 없습니다.",
+        "no_wishlist": "관심 제품이 없습니다.",
+        "cabinet": {
+            "title": "내 화장대",
+            "view_all": "전체보기",
+            "add": "내 화장대에 추가",
+            "search_placeholder": "브랜드나 제품명을 입력하세요",
+            "safe_use": "안심 사용",
+            "empty_results": "검색 결과가 없습니다.",
+            "search_hint": "찾으시는 제품을 입력해 보세요.",
+            "stats": {
+                "total": "총 제품",
+                "expiring": "만료 임박"
+            },
+            "skin_types": {
+                "OSPT": "트러블 유목민 지성",
+                "OSNT": "겉은 번들, 속은 예민",
+                "OSPW": "자극 약한 어른 지성",
+                "OSNW": "예민하고 거친 지성",
+                "ORPT": "천하무적 건강 지성",
+                "ORNT": "축복받은 꿀광 지성",
+                "ORPW": "잡티 고민 튼튼 지성",
+                "ORNW": "관리 편한 노화 지성",
+                "DSPT": "잡티 많은 민감 건성",
+                "DSNT": "수분이 필요한 사막 피부",
+                "DSPW": "심술궂은 종합 고민형",
+                "DSNW": "주름 깊은 민감 건성",
+                "DRPT": "잡티 주의 건강 건성",
+                "DRNT": "매끄러운 중건성",
+                "DRPW": "잡티/주름 건강 건성",
+                "DRNW": "탄력 저하 건강 건성",
+                "unknown": "Please analyze your skin type"
+            },
+            "routine_title": "내 화장대 루틴",
+            "routine_subtitle": "제품 관리와 루틴을 한눈에 확인하세요",
+            "daily_routine_engine": "DAILY ROUTINE ENGINE",
+            "morning_routine": "☀️ 아침 루틴",
+            "night_routine": "🌙 밤 루틴",
+            "all_products_title": "전체 제품 관리",
+            "total_products": "내 화장대의 모든 제품들 ({count})",
+            "expiring_soon": "만료 {count}",
+            "search_title": "제품 검색",
+            "search_hint_empty": "찾으시는 화장품을 검색해보세요.",
+            "opened_status": "사용중",
+            "not_opened_status": "미개봉",
+            "usage_completed": "사용 완료로 표시",
+            "open_now": "지금 개봉하기",
+            "edit_expiry": "유통기한 수정",
+            "remove_from_cabinet": "화장대에서 삭제하기",
+            "expiry_date_label": "유통기한: ",
+            "expiry_not_set": "미설정",
+            "expiry_until": "~ {date} 까지",
+            "add_search_btn": "제품 검색해서 추가",
+            "routine_steps": {
+                "cleansing": {
+                    "label": "세안",
+                    "guide_morning": "미온수로 가볍게 물세안 해주세요.",
+                    "guide_night": "꼼꼼한 이중 세안이 중요해요."
+                },
+                "prep": {
+                    "label": "정돈",
+                    "guide_morning": "화장솜에 묻혀 결을 정돈해주세요.",
+                    "guide_night": "기초를 탄탄히 다지는 단계입니다."
+                },
+                "active": {
+                    "label": "활성",
+                    "guide_morning": "영양 성분을 피부 깊숙이 흡수시켜요.",
+                    "guide_night": "밤사이 피부가 쉴 수 있게 영양을 듬뿍!"
+                },
+                "moisturize": {
+                    "label": "보습",
+                    "guide_morning": "얇게 펴 발라 수분을 충전하세요.",
+                    "guide_night": "도톰하게 올려 수면팩처럼 활용해보세요."
+                },
+                "protect": {
+                    "label": "보호",
+                    "guide_morning": "외출 전 자외선 차단제는 필수! ☀️"
+                },
+                "missing": "제품 추가 필요",
+                "moisturizer_step": "보습제 단계"
+            }
+        }
+    },
+    "analysis": {
+        "title": "분석 결과",
+        "subtitle": "나의 피부 타입은",
+        "balance_report": "피부 균형 보고서",
+        "solution_title": "맞춤 솔루션 제품",
+        "categories": {
+            "all": "전체",
+            "cleansing": "클렌징",
+            "toner": "토너/패드",
+            "serum": "세럼/앰플",
+            "moisturizing": "보습",
+            "suncare": "선케어",
+            "other": "기타"
+        },
+        "no_recommendations": "해당 카테고리의 추천 제품이 없습니다.",
+        "disclaimer": "본 결과는 AI 분석에 기반한 참고용 데이터이며, 의학적 진단이 아닙니다. 정확한 진단과 처방은 전문의와 상담하시기 바랍니다.",
+        "back_to_home": "홈으로 돌아가기",
+        "traits": {
+            "dry": "건성",
+            "oily": "지성",
+            "resistant": "저항성",
+            "sensitive": "민감성",
+            "non_pigmented": "비색소성",
+            "pigmented": "색소성",
+            "tight": "탄력",
+            "wrinkled": "주름",
+            "active": "활성도",
+            "current_status": "현재 상태",
+            "average": "또래 평균"
+        },
+        "safety_report": "성분 안전 보고서",
+        "hazard_level": "전체 위험 지수",
+        "hazard_good": "민감 피부에도 안심",
+        "safe": "안전",
+        "grade": {
+            "low": "낮은 위험",
+            "moderate": "보통 위험",
+            "high": "높은 위험"
+        },
+        "descriptions": {
+            "OSPT": "피지가 많고 민감하며 잡티가 생기기 쉬운 타입입니다. 오일 프리 제품과 진정, 미백 관리가 동시에 필요합니다.",
+            "OSNT": "겉은 번들거리지만 속은 당기는 수분 부족형 지성입니다. 홍조나 트러블이 잦으니 유수분 밸런스와 진정에 집중하세요.",
+            "OSPW": "피지 분비가 활발하면서도 자극에 약하고 주름 고민이 있는 타입입니다. 저자극 안티에이징 케어가 필수적입니다.",
+            "OSNW": "민감한 지성이면서 피부 결이 거칠고 잔주름이 생기기 쉽습니다. 수분 공급과 장벽 강화에 신경 써주세요.",
+            "ORPT": "피지는 많지만 피부 장벽이 튼튼하고 잡티만 주의하면 되는 축복받은 지성입니다. 모공과 색소 관리에 집중하세요.",
+            "ORNT": "피부 장벽이 매우 견고하고 탄력 있는 타입입니다. 과다 피지만 적절히 조절하면 최상의 피부 상태를 유지할 수 있습니다.",
+            "ORPW": "피부가 튼튼하지만 유분으로 인한 트러블 흔적이나 주름이 고민인 타입입니다. 각질 관리와 레티놀 케어를 권장합니다.",
+            "ORNW": "피지는 많지만 민감하지는 않은 노화 진행형 지성입니다. 강력한 안티에이징 성분도 잘 받아들이는 강점이 있습니다.",
+            "DSPT": "피부가 매우 건조하고 얇아서 외부 자극에 민감하며 잡티가 잘 생깁니다. 보습과 자외선 차단이 무엇보다 중요합니다.",
+            "DSNT": "피지 분비가 적어 매우 건조하며 장벽이 약해 쉽게 붉어집니다. 고보습 세라마이드 크림으로 장벽을 세워주세요.",
+            "DSPW": "건조함, 민감도, 주름, 잡티 고민을 모두 가진 고난도 타입입니다. 충분한 영양 공급과 저자극 미백/항노화가 필요합니다.",
+            "DSNW": "매우 건조하고 예민하며 주름이 잘 생기는 타입입니다. 오일 성분이 포함된 고보습 항산화 제품을 추천합니다.",
+            "DRPT": "수분은 부족하지만 피부가 튼튼한 편입니다. 잡티가 생기기 쉬우니 비타민 C 성분과 보습을 함께 챙겨주세요.",
+            "DRNT": "피부가 건조한 편이지만 결이 매끄럽고 건강합니다. 수분 위주의 보습만 잘해주면 맑고 투명한 피부를 유지합니다.",
+            "DRPW": "건조함으로 인해 주름이 깊어지기 쉽고 잡티가 눈에 띄는 타입입니다. 리치한 제형의 안티에이징 크림이 효과적입니다.",
+            "DRNW": "피부 장벽은 튼튼하지만 수분 부족으로 인한 주름이 고민인 타입입니다. 영양감이 풍부한 보습제로 탄력을 관리하세요."
+        }
+    },
+    "products": {
+        "dr_g_red_blemish": {
+            "name": "닥터지 레드 블레미쉬 클리어 수딩 크림",
+            "reason": "피지는 잡고 수분은 채워주는 지성 필수템"
+        },
+        "anua_heartleaf_77": {
+            "name": "아누아 어성초 77 토너",
+            "reason": "과다 피지와 트러블 진정에 효과적"
+        },
+        "innisfree_no_sebum": {
+            "name": "이니스프리 노세범 미네랄 파우더",
+            "reason": "번들거리는 유분을 뽀송하게 잡아줌"
+        },
+        "round_lab_dokdo_cleanser": {
+            "name": "라운드랩 독도 클렌저",
+            "reason": "미세먼지와 노폐물을 말끔하게 세정"
+        },
+        "torriden_dive_in": {
+            "name": "토리든 다이브인 저분자 히알루론산 세럼",
+            "reason": "속건조를 해결하는 수분 폭탄"
+        },
+        "physiogel_dmt": {
+            "name": "피지오겔 DMT 페이셜 크림",
+            "reason": "72시간 지속되는 강력한 보습 장벽"
+        },
+        "bioderma_sensibio": {
+            "name": "바이오더마 센시비오 H2O",
+            "reason": "세안 후에도 당김 없는 촉촉한 클렌징"
+        },
+        "dalba_waterfull": {
+            "name": "달바 워터풀 에센스 선크림",
+            "reason": "로션처럼 촉촉한 수분광 선크림"
+        },
+        "aestura_atobarrier": {
+            "name": "에스트라 아토베리어365 크림",
+            "reason": "무너진 피부 장벽을 탄탄하게 복구"
+        },
+        "laroche_posay_cica": {
+            "name": "라로슈포제 시카플라스트 밤 B5",
+            "reason": "손상된 피부를 급속 진정시키는 SOS 크림"
+        },
+        "mediheal_teatree_pad": {
+            "name": "메디힐 티트리 트러블 패드",
+            "reason": "자극 없이 순하게 진정 케어"
+        },
+        "dr_g_green_mild": {
+            "name": "닥터지 그린 마일드 업 선 플러스",
+            "reason": "민감한 피부도 안심하는 무기자차"
+        },
+        "goodal_vit_c": {
+            "name": "구달 청귤 비타C 잡티 세럼",
+            "reason": "피부를 더 맑고 생기있게 톤업"
+        },
+        "ma_nyo_pure_oil": {
+            "name": "마녀공장 퓨어 클렌징 오일",
+            "reason": "블랙헤드와 피지를 부드럽게 녹여줌"
+        },
+        "skinfood_carrot_pad": {
+            "name": "스킨푸드 당근 패드",
+            "reason": "수분 충전과 피부결 정돈을 동시에"
+        },
+        "round_lab_birch_sun": {
+            "name": "라운드랩 자작나무 수분 선크림",
+            "reason": "백탁 없이 산뜻한 데일리 선크림"
+        },
+        "wellage_hyaluronic": {
+            "name": "웰라쥬 리얼 히알루로닉 블루 100",
+            "reason": "순도 100% 히알루론산의 수분 광채"
+        },
+        "isoi_blemish": {
+            "name": "아이소이 잡티 세럼",
+            "reason": "거뭇한 잡티와 흔적을 지워주는 1등 세럼"
+        },
+        "numbuzin_5_pad": {
+            "name": "넘버즈인 5번 글루타치온 필름 패드",
+            "reason": "항산화 성분으로 붙이는 미백 케어"
+        },
+        "missha_vit_c": {
+            "name": "미샤 비타씨플러스 잡티씨 앰플",
+            "reason": "기미와 주근깨를 집중적으로 케어"
+        },
+        "sulwhasoo_ginseng": {
+            "name": "설화수 자음생크림",
+            "reason": "피부 자생력을 높여 탄력을 되살림"
+        },
+        "ahc_eye_cream": {
+            "name": "AHC 텐 레볼루션 리얼 아이크림",
+            "reason": "얼굴 전체에 바르는 고농축 안티에이징"
+        },
+        "dr_g_black_snail": {
+            "name": "닥터지 블랙 스네일 크림",
+            "reason": "쫀쫀한 영양감으로 주름과 탄력 케어"
+        },
+        "mediheal_collagen_pad": {
+            "name": "메디힐 콜라겐 채움 패드",
+            "reason": "처진 피부에 쫀쫀한 힘을 채워줌"
+        },
+        "cnp_propolis": {
+            "name": "CNP 프로폴리스 에너지 앰플",
+            "reason": "꿀광 피부를 위한 집중 영양 공급"
+        }
+    },
+    "dictionary": {
+        "title": "성분 사전",
+        "subtitle": "궁금한 성분을 검색하고 배워보세요",
+        "search_placeholder": "성분명을 검색하세요 (예: 나이아신아마이드)",
+        "results_title": "검색 결과",
+        "example_title": "검색 예시",
+        "popular_title": "인기 성분",
+        "empty_hint": "더 많은 성분이 궁금하시다면 검색해보세요!",
+        "no_results": "공식 DB에 해당 성분이 없습니다.",
+        "labels": {
+            "category": "카테고리",
+            "scans": "스캔",
+            "description": "설명",
+            "effect": "주요 효능",
+            "good_for": "추천 피부 타입",
+            "caution": "주의사항",
+            "synergy": "궁합 좋은 성분",
+            "conflict": "함께 사용 주의",
+            "aliases": "별칭",
+            "cas_no": "CAS No"
+        },
+        "filters": {
+            "all": "전체",
+            "moisturize": "보습",
+            "soothing": "진정",
+            "whitening": "미백",
+            "anti_aging": "주름/탄력",
+            "firming": "탄력 강화",
+            "pore_care": "모공/각질",
+            "barrier": "장벽 강화",
+            "antibacterial": "항균/티트리",
+            "sunscreen": "자외선 차단",
+            "preservative": "방부/보존"
+        },
+        "filter_title": "기대 효능 필터"
+    },
+    "camera": {
+        "guide_title": "AI VISION",
+        "scan_hint": "성분표 전체가 잘 보이게 찍어주세요",
+        "accuracy_tip": "그늘지지 않고 선명하게 찍힐수록\n분석 정확도가 올라갑니다 ✨",
+        "shutter_hint": "촬영 버튼을 눌러 스캔하세요"
+    },
+    "countries": {
+        "kr": "대한민국",
+        "us": "미국",
+        "jp": "일본",
+        "cn": "중국",
+        "vn": "베트남",
+        "th": "태국"
+    },
+    "ocr_result": {
+        "title": "분석 결과",
+        "synergy_report": "Skin-Synergy Report",
+        "synergy_title": "피부 궁합 분석 결과",
+        "synergy_label": "Synergy",
+        "perfect_match": "찰떡궁합",
+        "highlights_title": "Skin Fit Highlights",
+        "highlights": {
+            "ingredient_fit": "성분 적합성",
+            "moisture_balance": "수분 밸런스",
+            "barrier_strengthening": "장벽 강화"
+        },
+        "usage_guide_title": "사용 가이드",
+        "night_label": "밤 사용 권장",
+        "day_label": "낮 사용 권장",
+        "anytime_label": "하루 중 언제든 사용 가능",
+        "time_hint": "성분 특성에 따른 권장 시간입니다.",
+        "conflict_title": "성분 충돌 주의",
+        "conflict_hint": "함께 사용 시 자극이 될 수 있는 성분이 포함되어 있습니다: ",
+        "caution_title": "사용 시 주의",
+        "composition_title": "성분 구성 비율",
+        "composition_labels": {
+            "active": "효능",
+            "moisturizer": "보습",
+            "calming": "진정"
+        },
+        "core_ingredients_title": "핵심 성분 분석",
+        "ai_detected": "AI DETECTED",
+        "ingredient_hint": "이 화장품의 핵심 보습과 장벽 케어를 담당합니다.",
+        "ai_insight": "Clony AI Expert Insight",
+        "precautions_title": "주의해야 할 점",
+        "effect_summary_title": "성분 기대 효과",
+        "ai_info": "AI 성분 분석 정보",
+        "shopping_info": {
+            "title": "글로벌 쇼핑 정보",
+            "est_duty_free": "예상 면세가",
+            "select_currency": "현지 통화 선택",
+            "converted": "최종 환산가",
+            "rate_warning": "* 실제 결제 금액은 환율 및 수수료에 따라 다를 수 있습니다."
+        },
+        "delivery_info": "지금 주문하면 오늘 밤 숙소로 배송 완료!",
+        "add_to_cart": "장바구니 담기"
+    },
+    "baumann": {
+        "age": {
+            "title": "나이를 알려주세요 🎂",
+            "subtitle": "정확한 맞춤 추천을 위해\n필요한 정보입니다",
+            "placeholder": "나이 입력",
+            "hint": "나이는 10-100 사이의 숫자로 입력해주세요.",
+            "skip": "나중에 하기",
+            "next": "다음"
+        },
+        "concerns_step": {
+            "title": "맞춤 정보 설정 🎯",
+            "subtitle": "정확한 피부 진단과 제품 추천을 위해\n필요한 정보들을 꼼꼼히 선택해주세요.",
+            "concern_title": "어떤 고민이 있나요? ✨",
+            "ingredient_title": "선호하는 성분이 있나요? 🧪",
+            "allergy_title": "피해야 할 성분은요? ⚠️",
+            "multiple_choice": "중복 선택 가능",
+            "none_preferred": "딱히 없어요",
+            "none_allergy": "괜찮아요 (없음)",
+            "prev": "이전",
+            "next_start": "다음 단계로 (설문 시작)"
+        },
+        "concerns": {
+            "acne": "여드름/뾰루지",
+            "dryness": "건조함",
+            "wrinkle": "주름/탄력",
+            "pigmentation": "색소침착/기미",
+            "redness": "홍조/민감성",
+            "pore": "모공",
+            "oil": "과다 피지"
+        },
+        "ingredients": {
+            "cica": "병풀(시카)",
+            "hyaluronic": "히알루론산",
+            "vitamin_c": "비타민C",
+            "niacinamide": "나이아신마이드",
+            "retinol": "레티놀",
+            "panthenol": "판테놀",
+            "salicylic": "살리실산(BHA)"
+        },
+        "allergy": {
+            "fragrance": "인공향료",
+            "alcohol": "에탄올/알코올",
+            "paraben": "파라벤",
+            "silicone": "실리콘",
+            "mineral_oil": "미네랄 오일",
+            "essential_oil": "에센셜 오일"
+        },
+        "survey": {
+            "question_label": "질문 {current} / {total}",
+            "hint": "가장 가까운 답변을 선택해주세요",
+            "od": "지성/건성",
+            "sr": "민감성/저항성",
+            "pn": "색소침착",
+            "tw": "탄력/주름"
+        },
+        "questions": {
+            "1": {
+                "text": "세안 후 2-3시간 뒤 피부 상태는?",
+                "options": [
+                    "매우 건조하고 당긴다",
+                    "약간 건조하다",
+                    "보통이다",
+                    "약간 번들거린다",
+                    "매우 번들거린다"
+                ]
+            },
+            "2": {
+                "text": "T존(이마, 코)의 모공 크기는?",
+                "options": [
+                    "거의 보이지 않는다",
+                    "작은 편이다",
+                    "보통이다",
+                    "큰 편이다",
+                    "매우 크다"
+                ]
+            },
+            "3": {
+                "text": "화장이 잘 지워지나요?",
+                "options": [
+                    "쉽게 뜬다/들뜬다",
+                    "약간 뜬다",
+                    "보통이다",
+                    "잘 유지된다",
+                    "매우 잘 유지된다"
+                ]
+            },
+            "4": {
+                "text": "새로운 화장품을 사용할 때",
+                "options": [
+                    "문제없이 사용",
+                    "가끔 문제 발생",
+                    "보통",
+                    "자주 트러블",
+                    "거의 항상 트러블"
+                ]
+            },
+            "5": {
+                "text": "피부가 붉어지거나 화끈거리는 경우가",
+                "options": [
+                    "전혀 없다",
+                    "거의 없다",
+                    "가끔 있다",
+                    "자주 있다",
+                    "매우 자주 있다"
+                ]
+            },
+            "6": {
+                "text": "가려움증이나 따가움을 느끼는 빈도는?",
+                "options": [
+                    "전혀 없다",
+                    "거의 없다",
+                    "가끔 있다",
+                    "자주 있다",
+                    "매우 자주 있다"
+                ]
+            },
+            "7": {
+                "text": "상처나 여드름 자국이 남는 정도는?",
+                "options": [
+                    "거의 안 남는다",
+                    "조금 남는다",
+                    "보통",
+                    "오래 남는다",
+                    "매우 오래 남는다"
+                ]
+            },
+            "8": {
+                "text": "기미, 주근깨, 색소침착이",
+                "options": [
+                    "전혀 없다",
+                    "거의 없다",
+                    "조금 있다",
+                    "많다",
+                    "매우 많다"
+                ]
+            },
+            "9": {
+                "text": "햇볕에 노출되면",
+                "options": [
+                    "잘 안 탄다",
+                    "조금 탄다",
+                    "보통",
+                    "쉽게 탄다",
+                    "매우 쉽게 탄다"
+                ]
+            },
+            "10": {
+                "text": "미간이나 입가 주름이",
+                "options": [
+                    "전혀 없다",
+                    "거의 없다",
+                    "조금 있다",
+                    "있다",
+                    "많다"
+                ]
+            },
+            "11": {
+                "text": "피부 처짐이나 탄력 저하가",
+                "options": [
+                    "전혀 없다",
+                    "거의 없다",
+                    "조금 있다",
+                    "있다",
+                    "심하다"
+                ]
+            },
+            "12": {
+                "text": "눈가 잔주름이",
+                "options": [
+                    "전혀 없다",
+                    "거의 없다",
+                    "조금 있다",
+                    "있다",
+                    "많다"
+                ]
+            }
+        },
+        "detail": {
+            "title": "피부 타입 정밀 분석",
+            "subtitle": "MBTI처럼 각 카테고리별 피부 특징을 분석했습니다",
+            "retake": "재진단하기",
+            "seasonal_hint": "피부 상태는 계절, 환경, 생활 습관에 따라 변할 수 있습니다",
+            "od_title": "유분 vs 수분",
+            "od_dry": "건성 (Dry)",
+            "od_oily": "지성 (Oily)",
+            "sr_title": "민감도",
+            "sr_resistant": "저항성 (Resistant)",
+            "sr_sensitive": "민감성 (Sensitive)",
+            "pn_title": "색소침착",
+            "pn_non": "비색소성 (Non-Pigmented)",
+            "pn_pigmented": "색소성 (Pigmented)",
+            "tw_title": "탄력",
+            "tw_tight": "탄력있음 (Tight)",
+            "tw_wrinkled": "주름있음 (Wrinkled)",
+            "type_summary": "{label} 성향이 {percentage}% 나타납니다"
+        }
+    },
+    "my": {
+        "title": "마이 클로니",
+        "stats": {
+            "orders": "주문·내역",
+            "reviews": "리뷰",
+            "inquiries": "문의",
+            "coupons": "쿠폰",
+            "points": "포인트",
+            "coupons_unit": "개",
+            "points_unit": "P",
+            "wishlist_unit": "개"
+        },
+        "order_status": {
+            "title": "주문 / 배송조회",
+            "view_all": "전체보기",
+            "pending_payment": "입금대기",
+            "paid": "결제완료",
+            "preparing": "상품준비",
+            "shipping": "배송중",
+            "delivered": "배송완료",
+            "confirmed": "구매확정"
+        },
+        "order_management": {
+            "title": "주문 관리",
+            "confirm_purchase": "구매 확정",
+            "exchange_return": "교환/반품",
+            "confirmed_msg": "구매가 확정되었습니다! 포인트가 적립됩니다. 🎉",
+            "others": "외 {{count}}건"
+        },
+        "sections": {
+            "shopping": "쇼핑 정보",
+            "activity": "내 활동",
+            "settings": "설정"
+        },
+        "menu": {
+            "order_history": "주문/배송 내역",
+            "return_history": "취소/반품/교환 내역",
+            "payment_methods": "결제수단 관리",
+            "shipping_addresses": "배송지 관리",
+            "view_all_cabinet": "내 화장대 전체보기",
+            "writable_reviews": "작성 가능한 리뷰",
+            "my_reviews": "내 작성 리뷰",
+            "inquiry_history": "1:1 문의 내역",
+            "notifications": "알림 설정",
+            "notices": "공지사항",
+            "logout": "로그아웃"
+        },
+        "profile_edit": {
+            "title": "프로필 정보 수정",
+            "nickname": "닉네임",
+            "placeholder": "닉네임을 입력하세요",
+            "save": "저장",
+            "cancel": "취소",
+            "error_short": "닉네임은 2자 이상이어야 합니다."
+        },
+        "payment": {
+            "title": "결제수단 관리",
+            "default": "기본 결제수단",
+            "no_cards": "등록된 결제수단이 없습니다",
+            "add_hint": "카드를 추가해 빠르게 결제하세요",
+            "set_default": "기본 설정",
+            "delete_confirm": "카드 삭제",
+            "delete_msg": "이 카드를 삭제하시겠습니까?",
+            "add_new": "새 카드 추가",
+            "add_btn": "등록",
+            "form": {
+                "bank": "카드사 / 은행명",
+                "bank_placeholder": "예: 신한카드",
+                "card_number": "카드 번호",
+                "expiry": "유효기간",
+                "expiry_placeholder": "MM / YY"
+            },
+            "security_hint": "카드 정보는 암호화되어 안전하게 저장됩니다."
+        },
+        "address": {
+            "title": "배송지 관리",
+            "default": "기본 배송지",
+            "edit": "수정",
+            "delete": "삭제",
+            "set_default": "기본 배송지 설정",
+            "add_new": "새 배송지 추가",
+            "form": {
+                "recipient": "수령인",
+                "phone": "연락처",
+                "address": "주소",
+                "detail": "상세 주소",
+                "name_placeholder": "예: 집, 회사",
+                "address_placeholder": "도로명 주소를 입력하세요",
+                "detail_placeholder": "동/호수, 층 등",
+                "limit_hint": "최대 10개의 배송지를 저장할 수 있습니다. 기본 배송지는 주문 시 자동으로 선택됩니다.",
+                "no_addresses": "등록된 배송지가 없습니다",
+                "add_hint": "자주 쓰는 배송지를 등록해보세요",
+                "delete_confirm": "배송지 삭제",
+                "delete_msg": "이 배송지를 삭제하시겠습니까?"
+            }
+        },
+        "modals": {
+            "order_history": {
+                "title": "주문/배송 내역",
+                "empty": "주문 내역이 없습니다",
+                "tracking": "운송장: {{no}}",
+                "track_btn": "배송 조회"
+            },
+            "return_history": {
+                "title": "취소/반품/교환 내역",
+                "empty": "내역이 없습니다",
+                "reason_prefix": "사유: ",
+                "refund_amount": "환불 예정 금액",
+                "types": {
+                    "cancel": "취소",
+                    "return": "반품",
+                    "exchange": "교환"
+                }
+            },
+            "reviews": {
+                "writable_title": "작성 가능한 리뷰 ({{count}})",
+                "my_title": "내 작성 리뷰 ({{count}})",
+                "empty_writable": "모든 리뷰를 작성했어요!",
+                "empty_my": "작성한 리뷰가 없습니다",
+                "thanks": "소중한 리뷰 감사합니다 💚",
+                "point_hint": "리뷰 작성 시 건당 500P 적립! 마감일 전에 작성해주세요.",
+                "deadline": "마감: {{date}}",
+                "placeholder": "솔직한 사용 후기를 남겨주세요 (최소 20자)",
+                "helpful": "도움이 됐어요 {{count}}",
+                "earn_title": "리뷰 작성 적립",
+                "success_msg": "리뷰가 등록되었습니다! 500P가 적립됩니다. 🎉",
+                "write_btn": "리뷰 작성하기"
+            },
+            "inquiry": {
+                "title": "1:1 문의 내역",
+                "empty": "문의 내역이 없습니다",
+                "add_new": "새 문의 작성",
+                "form_title": "새 문의 작성",
+                "category": "문의 유형",
+                "content": "문의 내용",
+                "placeholder": "문의하실 내용을 자세히 입력해주세요.",
+                "avg_time": "평균 답변 시간: 1-2 영업일 (주말/공휴일 제외)",
+                "answer": "답변",
+                "no_answer": "아직 답변이 등록되지 않았습니다. 빠른 시일 내 답변드리겠습니다.",
+                "categories": {
+                    "delivery": "배송",
+                    "product": "상품",
+                    "payment": "결제",
+                    "return": "교환/반품",
+                    "others": "기타"
+                }
+            },
+            "notice": {
+                "title": "공지사항",
+                "empty": "등록된 공지사항이 없습니다",
+                "categories": {
+                    "update": "업데이트",
+                    "maintenance": "점검",
+                    "event": "이벤트"
+                }
+            },
+            "coupon": {
+                "title": "나의 쿠폰함",
+                "empty": "보유하신 쿠폰이 없습니다",
+                "used": "사용완료",
+                "min_order": "{{amount}} 이상 주문 시",
+                "expiry": "{{date}} 까지"
+            },
+            "point": {
+                "title": "포인트 내역",
+                "total": "현재 사용 가능 포인트"
+            },
+            "wishlist": {
+                "title": "찜한 상품 ({{count}})",
+                "empty": "찜한 상품이 없습니다",
+                "add_cart": "장바구니 담기",
+                "added_msg": "장바구니에 담겼습니다."
+            },
+            "confirm_purchase": {
+                "title": "구매를 확정하시겠습니까?",
+                "hint": "구매 확정 후에는 교환/반품이 어렵습니다.\n상품을 꼼꼼히 확인하셨나요?",
+                "confirm_btn": "확정하기",
+                "success_msg": "구매가 확정되었습니다! 포인트가 적립됩니다. 🎉"
+            },
+            "return_order": {
+                "title": "교환/반품 신청",
+                "type_title": "신청 유형",
+                "reason_title": "신청 사유",
+                "hint": "수령 후 7일 이내 신청 가능합니다. 단순 변심의 경우 왕복 배송비가 부과됩니다.",
+                "submit_btn": "신청하기",
+                "types": {
+                    "return": "반품",
+                    "exchange": "교환"
+                },
+                "reasons": {
+                    "mind_change": "단순 변심",
+                    "defective": "상품 불량",
+                    "wrong_item": "오배송",
+                    "damaged": "배송 파손",
+                    "others": "기타"
+                }
+            }
+        }
+    },
+    "cart": {
+        "title": "장바구니",
+        "empty_title": "장바구니가 비어있어요",
+        "empty_desc": "OCR로 스캔한 제품을 담아보세요!",
+        "go_shopping": "쇼핑하러 가기",
+        "clear_all": "전체 삭제",
+        "item_count": "{{count}}개 상품",
+        "remove_confirm_title": "상품 삭제",
+        "remove_confirm_msg": "장바구니에서 이 상품을 삭제하시겠습니까?",
+        "clear_confirm_title": "장바구니 비우기",
+        "clear_confirm_msg": "모든 상품을 삭제하시겠습니까?",
+        "match_percentage": "{{percentage}}% 일치",
+        "delivery_options": "배송 옵션",
+        "same_day": "당일 배송",
+        "same_day_desc": "오후 6시 이전 주문 시",
+        "dawn": "새벽 배송",
+        "dawn_desc": "오전 7시 도착",
+        "hotel": "호텔 체크인 맞춤",
+        "hotel_desc_today": "오늘 {{time}}에 로비로 당일 배송",
+        "hotel_desc_tomorrow": "내일 새벽 7시 배송 (18시 이후 체크인)",
+        "hotel_desc_default": "체크인 시간에 맞춰 수령",
+        "set_time": "시간 설정",
+        "free": "무료",
+        "price_summary": {
+            "title": "결제 정보",
+            "items": "상품 금액",
+            "delivery": "배송비",
+            "total": "총 결제금액",
+            "checkout_btn": "₩{{amount}} 결제하기"
+        },
+        "time_picker": {
+            "title": "체크인(수령) 시간을 선택해주세요",
+            "hint": "* 18:00 이후 체크인 시 다음 날 새벽 7시에 배송됩니다.",
+            "same_day_badge": "당일배송"
+        },
+        "checkout_confirm": {
+            "title": "구매를 진행하시겠습니까?",
+            "desc": "총 {{count}}개의 상품\n결제 금액: ₩{{amount}}",
+            "hotel_today": "\n(호텔 배송: 오늘 {{time}} 도착)",
+            "hotel_tomorrow": "\n(호텔 배송: 내일 새벽 7시 도착)"
+        },
+        "same_day_unavailable_title": "당일 배송 마감",
+        "same_day_unavailable_msg": "오후 6시가 지나 당일 배송이 마감되었습니다."
+    },
+    "checkout_address": {
+        "title": "배송지 입력",
+        "recipient": "받는 사람 *",
+        "recipient_placeholder": "이름을 입력하세요",
+        "phone": "전화번호 *",
+        "phone_placeholder": "010-1234-5678",
+        "phone_hint": "국제 전화번호도 입력 가능합니다 (예: +82 10-1234-5678)",
+        "address_section": "주소 *",
+        "postal_code_placeholder": "우편번호",
+        "search_btn": "검색",
+        "address_placeholder": "주소",
+        "detail_placeholder": "상세 주소를 입력하세요",
+        "memo": "배송 메모 (선택)",
+        "memo_placeholder": "예: 문 앞에 놓아주세요",
+        "hotel_section": "호텔 / 숙소",
+        "hotel_name_placeholder": "호텔 이름",
+        "hotel_room_placeholder": "객실 번호",
+        "save_address": "배송지 정보 저장",
+        "save_address_hint": "이 주소를 기본 배송지로 기억할까요?",
+        "order_summary": "주문 상품",
+        "order_count": "{{count}}개",
+        "order_more": "외 {{count}}개",
+        "total": "총 결제금액",
+        "pay_btn": "결제하기",
+        "search_modal_placeholder": "지번, 도로명 주소를 입력해주세요",
+        "search_result_type": "도로명 주소",
+        "search_empty": "검색 결과가 없습니다.",
+        "search_use_input": "\"{{query}}\"를 그대로 입력하기",
+        "search_hint": "동, 도로명, 건물명 등으로 검색해보세요",
+        "validation": {
+            "name_required": "받는 사람 이름을 입력해주세요.",
+            "phone_required": "전화번호를 입력해주세요.",
+            "address_required": "주소를 입력해주세요.",
+            "detail_required": "상세 주소를 입력해주세요."
+        }
+    },
+    "delivery": {
+        "order_tracking": "배송 추적",
+        "eta": "예상 도착",
+        "eta_minutes": "약 {{min}}분",
+        "progress": "배송 진행 상황",
+        "stages": "단계",
+        "timeline": "타임라인",
+        "in_progress": "진행 중",
+        "order_info": "주문 정보",
+        "items": "상품",
+        "destination": "배송지",
+        "delivered_title": "배송 완료!",
+        "delivered_desc": "클로니를 이용해 주셔서 감사합니다.",
+        "stage_ordered": "주문 확인",
+        "stage_ordered_desc": "주문이 접수되었습니다.",
+        "stage_preparing": "상품 준비 중",
+        "stage_preparing_desc": "직원이 상품을 준비하고 있습니다.",
+        "stage_on_the_way": "배송 중",
+        "stage_on_the_way_desc": "라이더가 출발했습니다.",
+        "stage_nearby": "거의 도착!",
+        "stage_nearby_desc": "라이더가 근처에 있습니다. 준비해주세요.",
+        "stage_delivered": "배송 완료!",
+        "stage_delivered_desc": "상품이 배달되었습니다. 즐겁게 사용해보세요!",
+        "tracking_title": "배송 현황",
+        "tracking_subtitle": "주문하신 상품의 배송 상태를 확인하세요",
+        "no_deliveries": "배송 중인 상품이 없습니다",
+        "no_deliveries_desc": "주문하신 상품의 배송 현황을 여기서 확인할 수 있어요",
+        "tracking_btn": "배송 추적하기",
+        "tracking_number": "운송장 번호",
+        "estimated_date": "도착 예정일",
+        "service_area": "서비스 지역 확인",
+        "service_area_search": "배송지 검색",
+        "service_area_input": "지번, 도로명 주소를 입력해주세요",
+        "service_area_check_btn": "지역 확인하기",
+        "service_available": "축하합니다! 클로니존(명동) 배송 가능 지역입니다. 🚀",
+        "service_unavailable": "아쉽게도 아직 서비스 준비 중인 지역입니다. 😢",
+        "order_step_completed": "주문 완료",
+        "order_step_preparing": "상품 준비 중",
+        "order_step_shipping": "배송 중",
+        "order_step_delivered": "도착 완료",
+        "tracking_detail_title": "배송 상세 추적",
+        "delivery_logs": "배송 로그",
+        "delivery_logs_scheduled": "배송예정",
+        "delivery_logs_courier": "담당기사"
+    },
+    "payment": {
+        "success_title": "주문 완료!",
+        "success_desc": "주문이 성공적으로 접수되었습니다.",
+        "order_id": "주문 번호",
+        "total": "총 결제금액",
+        "go_home": "홈으로 돌아가기",
+        "title": "결제",
+        "order_summary": "주문 요약",
+        "select_method": "결제 수단 선택",
+        "select_method_cta": "결제 수단을 선택해주세요",
+        "pay_btn": "결제하기",
+        "secure_badge": "256비트 SSL 보안 암호화",
+        "processing": "결제 처리 중...",
+        "processing_hint": "화면을 닫지 마세요",
+        "confirm_title": "결제 확인",
+        "method": "결제 수단",
+        "fx_notice": "환율은 참고용이며 실제와 다를 수 있습니다",
+        "qr_hint": "앱을 열고 QR 코드를 스캔해 결제하세요",
+        "qr_generated": "결제 시 생성됨",
+        "paid_confirm": "결제 완료"
+    },
+    "my_mock": {
+        "coupons": {
+            "c1_name": "신규 가입 환영 쿠폰",
+            "c1_discount": "5,000원",
+            "c1_min": "30,000원 이상 구매 시",
+            "c2_name": "피부 진단 완료 감사 쿠폰",
+            "c2_discount": "10%",
+            "c2_min": "최대 5,000원 할인",
+            "c3_name": "첫 구매 감사 3,000원 할인",
+            "c3_discount": "3,000원",
+            "c3_min": "10,000원 이상 구매 시"
+        },
+        "points": {
+            "p1_title": "설날 맞이 이벤트",
+            "p2_title": "리뷰 작성 적립",
+            "p3_title": "상품 구매 사용"
+        },
+        "orders": {
+            "item1": "독도 토너 1개",
+            "item2": "수분 크림 1개",
+            "item3": "선크림 SPF50 1개",
+            "item4": "클렌징폼 1개",
+            "item5": "앰플 1개",
+            "price_38k": "38,000원",
+            "price_22k": "22,000원",
+            "price_45k": "45,000원"
+        },
+        "inquiries": {
+            "inq1_title": "배송 지연 문의",
+            "inq1_answer": "안녕하세요. 배송 지연에 대해 사과드립니다. 현재 택배사 사정으로 1-2일 지연되고 있습니다.",
+            "inq2_title": "제품 성분 문의"
+        },
+        "reviews": {
+            "rev1_name": "독도 토너 200ml",
+            "rev1_brand": "라운드랩",
+            "rev1_content": "피부가 촉촉해지고 자극이 없어서 너무 좋아요! 민감한 피부인데 전혀 트러블이 없었습니다. 재구매 의사 100%!",
+            "rev2_name": "수분 크림 50ml",
+            "rev2_brand": "코스알엑스",
+            "rev2_content": "보습력이 좋고 발림성도 훌륭합니다. 향이 조금 강한 편이라 별 4개 드립니다."
+        },
+        "returns": {
+            "reason1": "상품 불량",
+            "reason2": "다른 상품 오배송",
+            "item1": "독도 토너",
+            "item2": "수분 크림",
+            "price_19k": "19,000원"
+        },
+        "notices": {
+            "n1_title": "화장품 DB 대규모 업데이트 안내",
+            "n1_content": "안녕하세요, Clony 팀입니다.\n\n2월 18일자로 화장품 데이터베이스가 업데이트되었습니다.\n이제 최신 신상 화장품 정보도 바로 확인하실 수 있습니다.\n\n[주요 업데이트 내용]\n- 신규 브랜드 15개 추가\n- 2026 S/S 신상 제품 500여 종 등록\n- 성분 분석 알고리즘 개선\n\n앞으로도 더 정확한 정보를 제공하기 위해 노력하겠습니다.\n감사합니다.",
+            "n2_title": "서버 안정화 및 버그 수정",
+            "n2_content": "안녕하세요.\n\n보다 안정적인 서비스 제공을 위해 서버 점검 및 버그 수정이 진행되었습니다.\n\n- 간헐적인 로그인 실패 현상 수정\n- 앱 실행 속도 최적화\n\n이용에 불편을 드려 죄송합니다.\n더 나은 서비스를 위해 최선을 다하겠습니다.",
+            "n3_title": "설날 맞이 포인트 지급 이벤트",
+            "n3_content": "새해 복 많이 받으세요! 🙇‍♂️\n\n설날을 맞아 모든 회원분들께 1,000P를 지급해 드립니다.\n지급된 포인트는 마이페이지 > 포인트 내역에서 확인 가능합니다.\n\nClony와 함께 즐거운 명절 보내세요!",
+            "cat_update": "업데이트",
+            "cat_maintenance": "점검",
+            "cat_event": "이벤트"
+        }
+    }
+}
